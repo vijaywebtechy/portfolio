@@ -7,6 +7,11 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        inter: ["var(--font-inter)"],
+        montserrat: ["var(--font-montserrat)"],
+        poppins: ["var(--font-poppins)"],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
