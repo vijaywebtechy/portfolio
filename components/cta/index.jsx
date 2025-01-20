@@ -19,7 +19,7 @@ const CTA = ({ onContactSheet }) => {
           <button
             onClick={onContactSheet}
             href="#"
-            className="flex items-center justify-center gap-x-3 font-montserrat py-2 px-4 border-2 border-gray-400 text-base leading-normal rounded-md font-medium text-gray-600
+            className="flex items-center justify-center gap-x-3 font-montserrat py-2.5 px-4 border-2 border-gray-400 text-base leading-normal rounded-md font-medium text-gray-600
               hover:text-violet-800 hover:border-violet-800 group transition-all duration-300 group
   hover:shadow-[0_4px_20px_0_rgba(138,43,226,0.5),_0_4px_20px_0_rgba(255,99,71,0.5)]"
           >

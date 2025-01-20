@@ -21,7 +21,7 @@ const About = () => {
             className="mySwiper"
           >
             <SwiperSlide>
-              <div className="flex flex-col justify-between p-2 w-full h-full bg-white">
+              <div className="flex flex-col justify-between p-2 w-full h-full bg-white shadow-2xl">
                 <div className="border border-gray-200 w-full h-full rounded-xl relative overflow-hidden grayscale">
                   <Image
                     src={mine1}

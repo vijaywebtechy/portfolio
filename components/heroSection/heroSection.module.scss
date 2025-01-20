@@ -2,9 +2,7 @@
     background-image: url('/images/background/hero-bg.jpg');
     background-size: cover;
     background-position: center;
-    h1{
-        // text-shadow: 0.02em 0.02em 0 Brown, 0 0 0.5em rgb(207, 130, 238);
-    }
+    height: calc(100vh - 165px);
 }
 
 // .proImg{

@@ -86,7 +86,7 @@ const Testimonials = () => {
                 onClick={() => swiperRef.current?.slidePrev()}
                 disabled={isPrevDisabled}
               >
-                <CircleChevronLeft strokeWidth={1} size={46} />
+                <CircleChevronLeft strokeWidth={1} size={50} />
               </button>
               <button
                 className={`bg-transparent text-gray-600 rounded-full transition-all duration-300 group
@@ -96,7 +96,7 @@ const Testimonials = () => {
                 onClick={() => swiperRef.current?.slideNext()}
                 disabled={isNextDisabled}
               >
-                <CircleChevronRight strokeWidth={1} size={46} />
+                <CircleChevronRight strokeWidth={1} size={50} />
               </button>
             </div>
           </div>
@@ -144,7 +144,7 @@ const Testimonials = () => {
                 onClick={() => swiperRef.current?.slidePrev()}
                 disabled={isPrevDisabled}
               >
-                <CircleChevronLeft strokeWidth={1} size={46} />
+                <CircleChevronLeft strokeWidth={1} size={50} />
               </button>
               <button
                 className={`bg-transparent text-violet-600 ${
@@ -155,7 +155,7 @@ const Testimonials = () => {
                 onClick={() => swiperRef.current?.slideNext()}
                 disabled={isNextDisabled}
               >
-                <CircleChevronRight strokeWidth={1} size={46} />
+                <CircleChevronRight strokeWidth={1} size={50} />
               </button>
             </div>
           </div>

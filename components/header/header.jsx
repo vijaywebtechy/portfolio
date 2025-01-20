@@ -7,14 +7,14 @@ import { SquareSquare } from "lucide-react";
 
 const Header = ({ onContactSheet }) => {
   return (
-    <div class="border-b border-gray-800/10 font-montserrat h-50 z-10 sticky top-0 w-full bg-white/50 backdrop-blur">
+    <div class="border-b border-gray-800/10 font-montserrat h-50 z-10 sticky top-0 w-full bg-white/50 backdrop-blur h-[85px]">
       <div className="max-w-6xl mx-auto grid grid-cols-3 items-center justify-between p-4 h-full">
         <div>
           <Link
             href="/"
             className="flex items-center gap-x-1 py-2 font-montserrat text-2xl font-semibold leading-normal text-violet-600"
           >
-            <SquareSquare strokeWidth={2.5} />
+            <SquareSquare strokeWidth={2.5} className="text-[#FF6347]" />
             <strong>VIUI.</strong>
           </Link>
         </div>
@@ -32,7 +32,7 @@ const Header = ({ onContactSheet }) => {
             Portfolio
           </Link>
           <Link
-            href="#"
+            href="/resume"
             className="px-4 py-2 hover:text-gray-800 border-2 border-transparent hover:border-gray-400 rounded-md"
           >
             Resume

@@ -35,7 +35,7 @@ const skills = [
 
 const WhyChooseMe = () => {
   return (
-    <section className="w-full py-20 bg-white">
+    <section className="w-full py-20 bg-white whychooseme">
       <div className="w-full max-w-6xl mx-auto p-4">
         <div className="w-full flex flex-col md:flex-row gap-x-4">
           <div className="w-full md:w-6/12">
