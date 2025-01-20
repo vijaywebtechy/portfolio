@@ -20,13 +20,13 @@ const Header = ({ onContactSheet }) => {
         </div>
         <nav className="h-full flex items-center space-x-4 text-base font-medium">
           <Link
-            href="#about"
+            href="/#about"
             className="px-4 py-2 hover:text-gray-800 border-2 border-transparent hover:border-gray-400 rounded-md"
           >
             About
           </Link>
           <Link
-            href="#portfolio"
+            href="/#portfolio"
             className="px-4 py-2 hover:text-gray-800 border-2 border-transparent hover:border-gray-400 rounded-md"
           >
             Portfolio
