@@ -1,7 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import { SquareSquare } from "lucide-react";
-import ThemeToggle from "../themeToggle";
+import dynamic from "next/dynamic";
+const ThemeToggle = dynamic(() => import("../themeToggle"), { ssr: false });
 
 const Header = ({ onContactSheet }) => {
   return (
