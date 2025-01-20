@@ -4,7 +4,7 @@ import { MousePointerClick } from "lucide-react";
 
 const CTA = ({ onContactSheet }) => {
   return (
-    <section className="w-full bg-gray-100 dark:bg-gray-800 py-20 border border-gray-200 dark:border-gray-600">
+    <section className="w-full bg-gray-100 dark:bg-black py-20 border-y border-gray-200 dark:border-gray-600">
       <div className="w-full max-w-6xl mx-auto text-left p-4">
         <h2 className="font-inter text-6xl font-extrabold leading-tight tracking-tighter text-[#1b273b] dark:text-gray-100">
           Got an Idea? <br />

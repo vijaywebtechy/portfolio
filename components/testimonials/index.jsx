@@ -49,7 +49,7 @@ const Testimonials = () => {
     setIsNextDisabled(swiper.isEnd);
   };
   return (
-    <section className="py-20 bg-white">
+    <section className="py-20 bg-white dark:bg-black">
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex md:flex-row md:gap-x-4 flex-col">
           <div className="w-full md:w-5/12 flex flex-col justify-between">
@@ -68,10 +68,10 @@ const Testimonials = () => {
                   className="text-[#FF6347]"
                 />
               </h3>
-              <h2 className="font-inter text-6xl font-extrabold leading-tight tracking-tighter text-[#1b273b]">
+              <h2 className="font-inter text-6xl font-extrabold leading-tight tracking-tighter text-[#1b273b] dark:text-gray-200">
                 Words of Praise
               </h2>
-              <p className="font-montserrat text-xl text-gray-600 mt-4 mb-8 leading-relaxed">
+              <p className="font-montserrat text-xl text-gray-600 dark:text-gray-200 mt-4 mb-8 leading-relaxed">
                 Explore the stories behind the successful projects I've had the
                 privilege to work on.
               </p>
@@ -79,7 +79,7 @@ const Testimonials = () => {
             {/* Custom Navigation In WEB */}
             <div className="space-x-2 justify-start items-center hidden md:flex">
               <button
-                className={`bg-transparent text-gray-600 rounded-full transition-all duration-300 group
+                className={`bg-transparent text-gray-600 dark:text-gray-200 rounded-full transition-all duration-300 group
   hover:shadow-[0_4px_20px_0_rgba(138,43,226,0.5),_0_4px_20px_0_rgba(255,99,71,0.5)]  ${
     isPrevDisabled ? "opacity-40 cursor-not-allowed" : "hover:text-violet-600"
   }`}
@@ -89,7 +89,7 @@ const Testimonials = () => {
                 <CircleChevronLeft strokeWidth={1} size={50} />
               </button>
               <button
-                className={`bg-transparent text-gray-600 rounded-full transition-all duration-300 group
+                className={`bg-transparent text-gray-600 dark:text-gray-200 rounded-full transition-all duration-300 group
   hover:shadow-[0_4px_20px_0_rgba(138,43,226,0.5),_0_4px_20px_0_rgba(255,99,71,0.5)]  ${
     isNextDisabled ? "opacity-40 cursor-not-allowed" : "hover:text-violet-600"
   }`}
@@ -171,13 +171,13 @@ const TestimonialCard = ({ clName, clRole, description }) => {
   return (
     <div className="shadow-md border border-gray-200 py-6 px-6 h-full rounded-md flex items-end">
       <div>
-        <p className="font-montserrat text-balance text-base leading-relaxed font-normal text-gray-600">
+        <p className="font-montserrat text-balance text-base leading-relaxed font-normal text-gray-600 dark:text-gray-200">
           {description}
         </p>
-        <h5 className="mt-5 font-montserrat text-lg font-bold text-gray-600 leading-normal">
+        <h5 className="mt-5 font-montserrat text-lg font-bold text-gray-600 dark:text-gray-200 leading-normal">
           {clName}
         </h5>
-        <span className="font-montserrat text-sm font-medium text-gray-600 leading-normal italic">
+        <span className="font-montserrat text-sm font-medium text-gray-600 dark:text-gray-200 leading-normal italic">
           -{clRole}
         </span>
       </div>

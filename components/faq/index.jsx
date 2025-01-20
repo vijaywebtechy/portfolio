@@ -58,7 +58,7 @@ const FAQ = () => {
     setOpenIndex(index === openIndex ? -1 : index);
   };
   return (
-    <section className="w-full py-20 bg-white">
+    <section className="w-full py-20 bg-white dark:bg-black">
       <div className="w-full max-w-6xl mx-auto px-4">
         <h3 className="font-montserrat text-2xl font-semibold text-violet-600 mb-5 flex items-center -ml-[6px]">
           <ChevronLeft
@@ -74,11 +74,11 @@ const FAQ = () => {
             className="text-[#FF6347]"
           />
         </h3>
-        <h2 className="font-inter text-6xl font-extrabold leading-tight tracking-tighter text-[#1b273b]">
+        <h2 className="font-inter text-6xl font-extrabold leading-tight tracking-tighter text-[#1b273b] dark:text-gray-200">
           All the Answers
           <br /> You're Looking For
         </h2>
-        <p className="font-montserrat text-xl text-gray-600 mt-4 mb-10 leading-relaxed">
+        <p className="font-montserrat text-xl text-gray-600 dark:text-gray-200 mt-4 mb-10 leading-relaxed">
           Dive into our FAQ to uncover answers to the questions on your mind. If
           you don't find what you're looking for, we're just a message away!
         </p>
@@ -108,12 +108,14 @@ const AccordionItem = ({ title, content, isOpen, onClick }) => {
       }`}
     >
       <button
-        className="w-full flex items-center justify-between px-4 py-6 hover:bg-gray-50 transition-all"
+        className="w-full flex items-center justify-between px-4 py-6 hover:bg-gray-50 dark:hover:bg-violet-600 transition-all group"
         onClick={onClick}
       >
         <span
           className={`font-montserrat text-lg font-medium leading-normal ${
-            isOpen ? "text-violet-800" : "text-gray-800"
+            isOpen
+              ? "text-violet-600 group-hover:dark:text-gray-200"
+              : "text-gray-800 dark:text-gray-200"
           }`}
         >
           {title}
@@ -137,7 +139,7 @@ const AccordionItem = ({ title, content, isOpen, onClick }) => {
           isOpen ? "max-h-96" : "max-h-0 py-0"
         }`}
       >
-        <p className="font-montserrat text-base leading-normal text-gray-600">
+        <p className="font-montserrat text-base leading-normal text-gray-600 dark:text-gray-200">
           {content}
         </p>
       </div>

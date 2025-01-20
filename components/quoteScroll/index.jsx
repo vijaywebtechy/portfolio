@@ -40,7 +40,7 @@ const QuoteScroll = () => {
   ];
 
   return (
-    <section className="h-20 flex items-center justify-center">
+    <section className="h-20 flex items-center justify-center bg-white dark:bg-black">
       <Swiper
         modules={[Autoplay]}
         slidesPerView={1}
@@ -59,7 +59,7 @@ const QuoteScroll = () => {
       >
         {slides.map((slide, index) => (
           <SwiperSlide key={index} className="h-full flex items-center">
-            <div className="text-center text-lg font-montserrat font-medium text-gray-800 italic h-full flex items-center justify-center">
+            <div className="text-center text-lg font-montserrat font-medium text-gray-800 dark:text-[#ff6347] italic h-full flex items-center justify-center">
               {slide.text} <span className="ml-2">{slide?.icon}</span>
             </div>
           </SwiperSlide>

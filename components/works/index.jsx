@@ -87,7 +87,10 @@ const Works = () => {
   };
 
   return (
-    <section id="portfolio" className={`py-20 bg-white ${styles.works}`}>
+    <section
+      id="portfolio"
+      className={`py-20 bg-white dark:bg-black ${styles.works}`}
+    >
       <div className="max-w-6xl mx-auto px-4">
         <h3 className="font-montserrat text-2xl font-semibold text-violet-600 mb-5 flex items-center -ml-[6px]">
           <ChevronLeft
@@ -103,7 +106,7 @@ const Works = () => {
             className="text-[#FF6347]"
           />
         </h3>
-        <h2 className="font-inter text-6xl font-extrabold leading-tight tracking-tighter text-[#1b273b]">
+        <h2 className="font-inter text-6xl font-extrabold leading-tight tracking-tighter text-[#1b273b] dark:text-gray-100">
           Checkout my work.
         </h2>
       </div>
@@ -145,7 +148,7 @@ const Works = () => {
         {/* Custom Navigation */}
         <div className="custom-navigation space-x-2 mt-6 flex justify-end items-center">
           <button
-            className={`bg-transparent text-gray-600 rounded-full transition-all duration-300 group
+            className={`bg-transparent text-gray-600 dark:text-gray-100 rounded-full transition-all duration-300 group
   hover:shadow-[0_4px_20px_0_rgba(138,43,226,0.5),_0_4px_20px_0_rgba(255,99,71,0.5)] ${
     isPrevDisabled ? "opacity-40 cursor-not-allowed" : "hover:text-violet-600"
   }`}
@@ -155,7 +158,7 @@ const Works = () => {
             <CircleChevronLeft strokeWidth={1} size={50} />
           </button>
           <button
-            className={`bg-transparent text-gray-600 rounded-full transition-all duration-300 group
+            className={`bg-transparent text-gray-600 dark:text-gray-100 rounded-full transition-all duration-300 group
   hover:shadow-[0_4px_20px_0_rgba(138,43,226,0.5),_0_4px_20px_0_rgba(255,99,71,0.5)] ${
     isNextDisabled ? "opacity-40 cursor-not-allowed" : "hover:text-violet-600"
   }`}
@@ -194,20 +197,20 @@ const WorksCard = ({
         />
       </div>
       <div className="flex-1 mt-4 flex flex-col">
-        <h4 className="font-montserrat text-2xl font-bold leading-relaxed text-black mb-2">
+        <h4 className="font-montserrat text-2xl font-bold leading-relaxed text-black dark:text-gray-200 mb-2">
           {projectName}
         </h4>
         <div className="flex flex-wrap gap-2 mb-4">
           {technologies.map((tech, index) => (
             <span
               key={index}
-              className="py-1 px-4 border border-gray-200 text-sm font-normal text-gray-800 rounded-md"
+              className="py-1 px-4 border border-gray-200 text-sm font-normal text-gray-800 dark:text-gray-100 rounded-md"
             >
               {tech}
             </span>
           ))}
         </div>
-        <p className="font-montserrat text-base leading-relaxed text-gray-600 line-clamp-4">
+        <p className="font-montserrat text-base leading-relaxed text-gray-600 dark:text-gray-100 line-clamp-4">
           {description}
         </p>
       </div>
@@ -217,7 +220,7 @@ const WorksCard = ({
             href={projectLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="p-2 rounded-full bg-white/30 hover:bg-white/50 transition-colors"
+            className="p-2 rounded-full bg-white/30 dark:bg-slate-200 hover:bg-white/50 transition-colors"
           >
             <Link size={20} />
           </a>
