@@ -12,7 +12,7 @@ import Image from "next/image";
 const HeroSection = ({ onContactSheet }) => {
   return (
     <div
-      className={`relative ${styles.heroSection} flex items-center bg-black`}
+      className={`relative ${styles.heroSection} flex items-center bg-white dark:bg-black`}
     >
       <div className="max-w-6xl mx-auto p-4 grid grid-cols-1 md:grid-cols-12 gap-4">
         <div className="md:col-span-9">
@@ -30,12 +30,12 @@ const HeroSection = ({ onContactSheet }) => {
               className="text-[#FF6347]"
             />
           </span>
-          <h1 className="font-inter text-6xl font-black leading-tight mb-8 tracking-tighter text-[#1b273b]">
+          <h1 className="font-inter text-6xl font-black leading-tight mb-8 tracking-tighter text-[#1b273b] dark:text-gray-200">
             I'm <span className="myname">Vijaya Bhaskar,</span> a
             <br />
             Creative Web Developer.
           </h1>
-          <p className="font-montserrat text-lg leading-relaxed text-black font-normal">
+          <p className="font-montserrat text-lg leading-relaxed text-gray-900 dark:text-gray-200 font-normal">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis
             rerum maiores voluptatem, dicta consectetur ipsum eum adipisci illum
             quod soluta, repellendus officia tempore quidem dolor ut hic

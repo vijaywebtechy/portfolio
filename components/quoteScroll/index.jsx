@@ -19,23 +19,23 @@ const QuoteScroll = () => {
   const slides = [
     {
       text: "Designed with precision, developed with passion.",
-      icon: <Award size={24} />,
+      icon: <Award size={24} className="dark:text-[#ff6347]" />,
     },
     {
       text: "Good design is clear; great design is invisible.",
-      icon: <ScanEye size={24} />,
+      icon: <ScanEye size={24} className="dark:text-[#ff6347]" />,
     },
     {
       text: "From wireframes to wonders—building experiences that matter.",
-      icon: <LaptopMinimalCheck size={24} />,
+      icon: <LaptopMinimalCheck size={24} className="dark:text-[#ff6347]" />,
     },
     {
       text: "User-first design, every step of the way.",
-      icon: <Layers size={24} />,
+      icon: <Layers size={24} className="dark:text-[#ff6347]" />,
     },
     {
       text: "Pixels are my playground; code is my paintbrush.",
-      icon: <Paintbrush size={24} />,
+      icon: <Paintbrush size={24} className="dark:text-[#ff6347]" />,
     },
   ];
 
@@ -59,7 +59,7 @@ const QuoteScroll = () => {
       >
         {slides.map((slide, index) => (
           <SwiperSlide key={index} className="h-full flex items-center">
-            <div className="text-center text-lg font-montserrat font-medium text-gray-800 dark:text-[#ff6347] italic h-full flex items-center justify-center">
+            <div className="text-center text-lg font-montserrat font-medium text-gray-800 dark:text-violet-600 italic h-full flex items-center justify-center">
               {slide.text} <span className="ml-2">{slide?.icon}</span>
             </div>
           </SwiperSlide>
