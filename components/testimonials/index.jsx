@@ -49,7 +49,7 @@ const Testimonials = () => {
     setIsNextDisabled(swiper.isEnd);
   };
   return (
-    <section className="py-20 bg-white dark:bg-black">
+    <section className="testimonials-section py-20 bg-white dark:bg-slate-950">
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex md:flex-row md:gap-x-4 flex-col">
           <div className="w-full md:w-5/12 flex flex-col justify-between">
@@ -169,7 +169,7 @@ export default Testimonials;
 
 const TestimonialCard = ({ clName, clRole, description }) => {
   return (
-    <div className="shadow-md border border-gray-200 py-6 px-6 h-full rounded-md flex items-end">
+    <div className="shadow-md border-2 border-gray-200 dark:border-gray-600 py-6 px-6 h-full rounded-md flex items-end">
       <div>
         <p className="font-montserrat text-balance text-base leading-relaxed font-normal text-gray-600 dark:text-gray-200">
           {description}

@@ -11,11 +11,15 @@ function ThemeToggle() {
 
   return (
     <button
-      className="toggle-container border-2 border-gray-200 rounded-full flex items-center p-2"
+      className="toggle-container border-gray-200 rounded-full flex items-center p-1"
       onClick={toggleSwitch}
     >
       <div className="toggle-handle">
-        {theme === "dark" ? <Moon size={16} /> : <Sun size={16} />}
+        {theme === "dark" ? (
+          <Moon size={24} strokeWidth={1.5} />
+        ) : (
+          <Sun size={24} strokeWidth={1.5} />
+        )}
       </div>
     </button>
   );

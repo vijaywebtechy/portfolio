@@ -6,12 +6,12 @@ const ThemeToggle = dynamic(() => import("../themeToggle"), { ssr: false });
 
 const Header = ({ onContactSheet }) => {
   return (
-    <div className="border-b border-gray-800/10 font-montserrat h-50 z-10 sticky top-0 w-full bg-white/50 backdrop-blur h-[85px] dark:bg-black dark:text-white">
+    <div className="border-b border-gray-800/10 font-montserrat h-50 z-10 sticky top-0 w-full bg-white/50 backdrop-blur h-[85px] dark:bg-slate-950 dark:text-white">
       <div className="max-w-6xl mx-auto grid grid-cols-3 items-center justify-between p-4 h-full">
         <div>
           <Link
             href="/"
-            className="flex items-center gap-x-1 py-2 font-montserrat text-2xl font-semibold leading-normal text-violet-600 dark:text-white"
+            className="flex items-center gap-x-1 py-2 font-montserrat text-2xl font-semibold leading-normal text-violet-600"
           >
             <SquareSquare strokeWidth={2.5} className="text-[#FF6347]" />
             <strong>VIUI.</strong>
@@ -20,19 +20,19 @@ const Header = ({ onContactSheet }) => {
         <nav className="h-full flex items-center space-x-4 text-base font-medium">
           <Link
             href="/#about"
-            className="px-4 py-2 hover:text-gray-800 border-2 border-transparent hover:border-gray-400 rounded-md"
+            className="px-4 py-2 text-gray-600 dark:text-gray-400 border-2 border-transparent hover:border-gray-400 dark:hover:text-gray-200 rounded-md"
           >
             About
           </Link>
           <Link
             href="/#portfolio"
-            className="px-4 py-2 hover:text-gray-800 border-2 border-transparent hover:border-gray-400 rounded-md"
+            className="px-4 py-2 text-gray-600 dark:text-gray-400 border-2 border-transparent hover:border-gray-400 dark:hover:text-gray-200 rounded-md"
           >
             Portfolio
           </Link>
           <Link
             href="/resume"
-            className="px-4 py-2 hover:text-gray-800 border-2 border-transparent hover:border-gray-400 rounded-md"
+            className="px-4 py-2 text-gray-600 dark:text-gray-400 border-2 border-transparent hover:border-gray-400 dark:hover:text-gray-200 rounded-md"
           >
             Resume
           </Link>
@@ -53,10 +53,14 @@ const Header = ({ onContactSheet }) => {
             </svg>
           </button>
           <button
-            className="ml-4 text-base font-medium border-2 border-gray-400 text-gray-600 px-4 py-2 rounded-md hover:border-violet-800 hover:text-violet-800 transition-all duration-300 group
-  hover:shadow-[0_4px_20px_0_rgba(138,43,226,0.5),_0_4px_20px_0_rgba(255,99,71,0.5)] dark:hover:border-violet-400 dark:hover:text-violet-400"
             onClick={onContactSheet}
+            className={`flex items-center justify-center gap-x-3 font-montserrat py-2 px-4 ml-4 border-2 border-gray-400 dark:border-gray-600 text-base leading-normal 
+    rounded-md font-medium text-gray-600 dark:text-gray-300 
+    hover:text-violet-600 dark:hover:text-violet-600 hover:border-violet-800 dark:hover:border-violet-800 
+    group transition-all duration-300 
+    hover:shadow-[0_4px_20px_rgba(138,43,226,0.5),_0_4px_20px_rgba(255,99,71,0.5)]`}
           >
+            {" "}
             Let's Work
           </button>
         </div>

@@ -1,7 +1,8 @@
 .heroSection{
-    // background-image: url('/images/background/hero-bg.jpg');
-    background-size: cover;
-    background-position: center;
+    // background-image: url("../../public/images/background/square-texture.svg");
+    background-repeat: repeat, no-repeat; /* First image repeats, second doesn't */
+    background-size: auto, cover; /* First image uses default size, second covers */
+    background-position: bottom left, center; /* Position for the first and second image */
     height: calc(100vh - 165px);
 }
 

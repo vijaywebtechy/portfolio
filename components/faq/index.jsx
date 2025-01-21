@@ -58,7 +58,7 @@ const FAQ = () => {
     setOpenIndex(index === openIndex ? -1 : index);
   };
   return (
-    <section className="w-full py-20 bg-white dark:bg-black">
+    <section className="faq-section w-full py-20 bg-white dark:bg-slate-950">
       <div className="w-full max-w-6xl mx-auto px-4">
         <h3 className="font-montserrat text-2xl font-semibold text-violet-600 mb-5 flex items-center -ml-[6px]">
           <ChevronLeft
@@ -130,7 +130,7 @@ const AccordionItem = ({ title, content, isOpen, onClick }) => {
           <Eye
             size={32}
             strokeWidth={1.75}
-            className="w-6 h-6 text-gray-400 transition-transform duration-200"
+            className="w-6 h-6 text-gray-400 dark:text-gray-200 transition-transform duration-200"
           />
         )}
       </button>

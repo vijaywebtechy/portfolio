@@ -14,7 +14,12 @@ import materialIcon from "@/public/images/icons/material-ui-icon.png";
 import githubIcon from "@/public/images/icons/github-icon.svg";
 import sketchIcon from "@/public/images/icons/sketch-icon.svg";
 import zeplinIcon from "@/public/images/icons/zeplin-icon.svg";
-import { ChevronLeft, ChevronRight, Slash } from "lucide-react";
+import {
+  ArrowBigDownDash,
+  ChevronLeft,
+  ChevronRight,
+  Slash,
+} from "lucide-react";
 
 const skills = [
   { name: "HTML", progress: "100%", icon: htmlIcon },
@@ -35,7 +40,7 @@ const skills = [
 
 const WhyChooseMe = () => {
   return (
-    <section className="w-full py-20 bg-white whychooseme dark:bg-black">
+    <section className="whychooseme-section w-full py-20 bg-slate-50  dark:bg-slate-950">
       <div className="w-full max-w-6xl mx-auto p-4">
         <div className="w-full flex flex-col md:flex-row gap-x-4">
           <div className="w-full md:w-6/12">
@@ -62,6 +67,20 @@ const WhyChooseMe = () => {
               diverse set of skills to every project, ensuring everything looks
               great and works flawlessly."
             </p>
+            <button
+              className={`flex items-center justify-center gap-x-3 font-montserrat py-2.5 px-4 border-2 border-gray-400 dark:border-gray-600 text-lg leading-normal 
+    rounded-md font-medium text-gray-600 dark:text-gray-300 
+    hover:text-violet-600 dark:hover:text-violet-600 hover:border-violet-800 dark:hover:border-violet-800 
+    group transition-all duration-300 
+    hover:shadow-[0_4px_20px_rgba(138,43,226,0.5),_0_4px_20px_rgba(255,99,71,0.5)]`}
+            >
+              Download Resume
+              <ArrowBigDownDash
+                className="group-hover:text-[#FF6347] dark:group-hover:text-[#FF6347]"
+                strokeWidth={1.75}
+                size={30}
+              />
+            </button>
           </div>
           <div className="w-full md:w-6/12 flex items-center">
             <div className="flex flex-wrap gap-5">

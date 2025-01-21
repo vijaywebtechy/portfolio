@@ -89,7 +89,7 @@ const Works = () => {
   return (
     <section
       id="portfolio"
-      className={`py-20 bg-white dark:bg-black ${styles.works}`}
+      className={`works-section py-20 bg-white dark:bg-slate-950`}
     >
       <div className="max-w-6xl mx-auto px-4">
         <h3 className="font-montserrat text-2xl font-semibold text-violet-600 mb-5 flex items-center -ml-[6px]">
@@ -186,7 +186,7 @@ const WorksCard = ({
 }) => {
   return (
     <div
-      className="flex flex-col h-full w-full p-4 border-2 border-gray-200 rounded-lg"
+      className="flex flex-col h-full w-full p-4 border-2 border-gray-200 dark:border-gray-600 rounded-lg"
       style={{ minHeight: "300px" }}
     >
       <div className="h-64 w-full border border-gray-200 rounded-lg overflow-hidden">
@@ -196,7 +196,7 @@ const WorksCard = ({
           className="object-cover w-full h-full"
         />
       </div>
-      <div className="flex-1 mt-4 flex flex-col">
+      <div className="flex-1 mt-4 mb-2 flex flex-col">
         <h4 className="font-montserrat text-2xl font-bold leading-relaxed text-black dark:text-gray-200 mb-2">
           {projectName}
         </h4>
@@ -204,7 +204,7 @@ const WorksCard = ({
           {technologies.map((tech, index) => (
             <span
               key={index}
-              className="py-1 px-4 border border-gray-200 text-sm font-normal text-gray-800 dark:text-gray-100 rounded-md"
+              className="py-1 px-4 border border-gray-200 dark:border-gray-600 text-sm font-normal text-gray-800 dark:text-gray-100 rounded-md"
             >
               {tech}
             </span>
@@ -220,7 +220,7 @@ const WorksCard = ({
             href={projectLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="p-2 rounded-full bg-white/30 dark:bg-slate-200 hover:bg-white/50 transition-colors"
+            className="p-2 rounded-full bg-white/30 dark:bg-slate-200 transition-colors"
           >
             <Link size={20} />
           </a>

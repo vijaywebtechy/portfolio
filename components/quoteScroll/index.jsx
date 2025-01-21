@@ -40,7 +40,7 @@ const QuoteScroll = () => {
   ];
 
   return (
-    <section className="h-20 flex items-center justify-center bg-white dark:bg-black">
+    <section className="quote-scroll-section h-20 flex items-center justify-center bg-white dark:bg-slate-950">
       <Swiper
         modules={[Autoplay]}
         slidesPerView={1}

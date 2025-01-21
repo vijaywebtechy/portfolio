@@ -1,17 +1,18 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCards } from "swiper/modules";
 // Import Swiper styles
 import "swiper/swiper-bundle.css";
 import Image from "next/image";
-import dummyimage from "@/public/images/mine/dummyimage.png";
 import mine1 from "@/public/images/mine/mine1.jpg";
-import mine2 from "@/public/images/mine/mine2.jpg";
 
 const About = () => {
   return (
-    <section id="about" className="w-full py-20 bg-white dark:bg-black">
+    <section
+      id="about"
+      className="about-section w-full py-20 bg-white dark:bg-slate-950"
+    >
       <div className="w-full max-w-6xl mx-auto p-4 flex flex-col md:flex-row">
         <div className="w-full md:w-6/12">
           <Swiper
@@ -20,8 +21,8 @@ const About = () => {
             modules={[EffectCards]}
             className="mySwiper"
           >
-            <SwiperSlide>
-              <div className="flex flex-col justify-between p-2 w-full h-full bg-white shadow-2xl">
+            <SwiperSlide className="border border-gray-200 bg-white">
+              <div className="flex flex-col justify-between p-2 w-full h-full bg-white dark:bg-slate-200 shadow-2xl">
                 <div className="border border-gray-200 w-full h-full rounded-xl relative overflow-hidden grayscale">
                   <Image
                     src={mine1}
@@ -34,8 +35,8 @@ const About = () => {
                 </p>
               </div>
             </SwiperSlide>
-            <SwiperSlide>
-              <div className="flex flex-col justify-between p-2 w-full h-full">
+            <SwiperSlide className="border border-gray-200 bg-white">
+              <div className="flex flex-col justify-between p-2 w-full h-full bg-white dark:bg-slate-200">
                 <div className="border border-gray-200 w-full h-full rounded-xl relative overflow-hidden">
                   <Image
                     src={mine1}
@@ -51,12 +52,6 @@ const About = () => {
           </Swiper>
         </div>
         <div className="w-full md:w-6/12">
-          {/* <h3 className="font-montserrat text-2xl font-semibold text-violet-600 mb-5">
-            About
-          </h3>
-          <h2 className="font-inter text-6xl font-extrabold leading-tight tracking-tighter text-[#1b273b]">
-            My Story
-          </h2> */}
           <div className="font-montserrat text-lg leading-relaxed text-gray-800 dark:text-gray-200 font-normal">
             <p className="mb-3">
               Hey 👋 there! I'm Vijaya Bhaskar, your friendly neighborhood

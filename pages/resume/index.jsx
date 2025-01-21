@@ -5,7 +5,7 @@ import vijaypic from "@/public/images/mine/mine2.jpg";
 
 const TitleHeading = ({ titleHeading }) => {
   return (
-    <h2 className="title-heading font-inter text-3xl leading-relaxed font-extrabold border-b pb-3 text-[#1b273b] mb-6">
+    <h2 className="title-heading font-inter text-3xl leading-relaxed font-extrabold border-b pb-3 text-[#1b273b] dark:text-gray-100 mb-6">
       {titleHeading}
     </h2>
   );
@@ -13,12 +13,12 @@ const TitleHeading = ({ titleHeading }) => {
 
 const Resume = () => {
   return (
-    <section>
-      <div className="w-full max-w-6xl mx-auto py-8 px-4 bg-white">
+    <section className="bg-white dark:bg-slate-950">
+      <div className="w-full max-w-6xl mx-auto py-8 px-4">
         <div className="w-full flex md:flex-row flex-col md:gap-x-4">
           <div className="w-8/12">
             <TitleHeading titleHeading="Summery" />
-            <p className="font-montserrat text-base font-normal leading-relaxed mb-12 text-gray-600">
+            <p className="font-montserrat text-base font-normal leading-relaxed mb-12 text-gray-800 dark:text-gray-200">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Consequatur, dicta numquam cum impedit alias fugiat sequi officia
               aliquid. Dolor, id quidem saepe voluptatibus deserunt fuga autem
@@ -36,30 +36,30 @@ const Resume = () => {
                 Software Engineer - <span>Present</span>
               </h3>
               <div className="flex flex-wrap items-center gap-3 my-1">
-                <p className="font-montserrat text-base font-medium leading-relaxed text-gray-600">
+                <p className="font-montserrat text-base font-medium leading-relaxed text-gray-800 dark:text-gray-200">
                   ABC Technlogies
                 </p>
-                <span className="font-montserrat text-base font-medium leading-relaxed text-gray-400 italic">
+                <span className="font-montserrat text-base font-medium leading-relaxed text-gray-400 dark:text-gray-400 italic">
                   Hyderabad, India
                 </span>
               </div>
-              <ul className="list-disc pl-5 space-y-2 my-4">
+              <ul className="list-disc pl-5 space-y-2 my-4 text-gray-800 dark:text-gray-200">
                 <li>
-                  <p className="font-montserrat text-base leading-relaxed text-gray-600">
+                  <p className="font-montserrat text-base leading-relaxed">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Velit labore asperiores praesentium porro, architecto
                     accusantium, quae delectus dolorum mollitia
                   </p>
                 </li>
                 <li>
-                  <p className="font-montserrat text-base leading-relaxed text-gray-600">
+                  <p className="font-montserrat text-base leading-relaxed">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Velit labore asperiores praesentium porro, architecto
                     accusantium, quae delectus dolorum mollitia
                   </p>
                 </li>
                 <li>
-                  <p className="font-montserrat text-base leading-relaxed text-gray-600">
+                  <p className="font-montserrat text-base leading-relaxed">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Velit labore asperiores praesentium porro, architecto
                     accusantium, quae delectus dolorum mollitia
@@ -79,23 +79,23 @@ const Resume = () => {
                   Hyderabad, India
                 </span>
               </div>
-              <ul className="list-disc pl-5 space-y-2 my-4">
+              <ul className="list-disc pl-5 space-y-2 my-4 text-gray-800 dark:text-gray-200">
                 <li>
-                  <p className="font-montserrat text-base leading-relaxed text-gray-600">
+                  <p className="font-montserrat text-base leading-relaxed">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Velit labore asperiores praesentium porro, architecto
                     accusantium, quae delectus dolorum mollitia
                   </p>
                 </li>
                 <li>
-                  <p className="font-montserrat text-base leading-relaxed text-gray-600">
+                  <p className="font-montserrat text-base leading-relaxed">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Velit labore asperiores praesentium porro, architecto
                     accusantium, quae delectus dolorum mollitia
                   </p>
                 </li>
                 <li>
-                  <p className="font-montserrat text-base leading-relaxed text-gray-600">
+                  <p className="font-montserrat text-base leading-relaxed">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Velit labore asperiores praesentium porro, architecto
                     accusantium, quae delectus dolorum mollitia
@@ -108,30 +108,30 @@ const Resume = () => {
                 Software Engineer - <span>( 2023-2025 )</span>
               </h3>
               <div className="flex flex-wrap items-center gap-3 my-1">
-                <p className="font-montserrat text-base font-medium leading-relaxed text-gray-600">
+                <p className="font-montserrat text-base font-medium leading-relaxed text-gray-800">
                   ABC Technlogies
                 </p>
                 <span className="font-montserrat text-base font-medium leading-relaxed text-gray-400 italic">
                   Hyderabad, India
                 </span>
               </div>
-              <ul className="list-disc pl-5 space-y-2 my-4">
+              <ul className="list-disc pl-5 space-y-2 my-4 text-gray-800 dark:text-gray-200">
                 <li>
-                  <p className="font-montserrat text-base leading-relaxed text-gray-600">
+                  <p className="font-montserrat text-base leading-relaxed">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Velit labore asperiores praesentium porro, architecto
                     accusantium, quae delectus dolorum mollitia
                   </p>
                 </li>
                 <li>
-                  <p className="font-montserrat text-base leading-relaxed text-gray-600">
+                  <p className="font-montserrat text-base leading-relaxed">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Velit labore asperiores praesentium porro, architecto
                     accusantium, quae delectus dolorum mollitia
                   </p>
                 </li>
                 <li>
-                  <p className="font-montserrat text-base leading-relaxed text-gray-600">
+                  <p className="font-montserrat text-base leading-relaxed">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                     Velit labore asperiores praesentium porro, architecto
                     accusantium, quae delectus dolorum mollitia
@@ -254,8 +254,8 @@ const Resume = () => {
             </div>
             {/* ----- ./CAPABILITIES END ----- */}
           </div>
-          <div className="w-4/12 p-4">
-            <div className="w-full h-1/6 object-cover overflow-hidden flex items-center justify-center">
+          <div className="w-4/12 p-4 drop-shadow-2xl decoration-purple-800">
+            <div className="w-full h-1/6 object-cover overflow-hidden flex items-center justify-center border-2 border-gray-400">
               <Image src={vijaypic} alt="vijay" />
             </div>
           </div>

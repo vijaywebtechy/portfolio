@@ -13,8 +13,28 @@ body {
   font-family: var(--font-montserrat);
 }
 
-.bg-grid-slate-900 {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='32' height='32' fill='none' stroke='rgb(15,23,42,0.04)'%3e%3cpath d='M0 .5H31.5V32'/%3e%3c/svg%3e");
+// Section Styles 
+.whychooseme-section{
+  background-image: url("../public/images/background/square-texture.svg"),url("../public/images/background/section-bg-four.png");
+  /* Apply different properties for each background image */
+  background-repeat: repeat, no-repeat; /* First image repeats, second doesn't */
+  background-size: auto, cover; /* First image uses default size, second covers */
+  background-position: top left, center; /* Position for the first and second image */
+}
+.faq-section{
+  background-image: url("../public/images/background/square-texture.svg"),url("../public/images/background/section-bg-three.png");
+  /* Apply different properties for each background image */
+  background-repeat: repeat, no-repeat; /* First image repeats, second doesn't */
+  background-size: auto, cover; /* First image uses default size, second covers */
+  background-position: top left, center; /* Position for the first and second image */
+}
+
+.cta-section{
+  background-image: url("../public/images/background/square-texture.svg"), url("../public/images/background/section-bg-five.png");
+  /* Apply different properties for each background image */
+  background-repeat: repeat, no-repeat; /* First image repeats, second doesn't */
+  background-size: auto, cover; /* First image uses default size, second covers */
+  background-position: top left, center; /* Position for the first and second image */
 }
 
 .myname {
@@ -37,8 +57,6 @@ body {
     justify-content: center;
     border-radius: 18px;
     overflow: hidden;
-    background-color: #fff;
-    border: 1px solid #e5e7eb;
   }
   // .swiper-slide:not(:first-child){
   //   background-color: rgba(209, 209, 209, 0.247);
@@ -131,6 +149,11 @@ body {
   }
 }
 
+/* Dark Mode Gradient */
+.dark .portfolioSwiper .swiper-slide-next + .swiper-slide::after {
+  background: linear-gradient(270deg, rgb(2 6 23) 40%, rgb(2 6 23 / 10%) 99%) !important;
+}
+
 .testimonialSwiper {
   position: relative;
   .swiper-slide-next::after {
@@ -149,4 +172,7 @@ body {
     ) !important;
     z-index: 9;
   }
+}
+.dark .testimonialSwiper .swiper-slide-next::after {
+  background: linear-gradient(270deg, rgb(2 6 23) 40%, rgb(2 6 23 / 10%) 99%) !important;
 }
