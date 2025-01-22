@@ -42,7 +42,7 @@ const WhyChooseMe = () => {
   return (
     <section className="whychooseme-section w-full py-20 bg-slate-50  dark:bg-slate-950">
       <div className="w-full max-w-6xl mx-auto p-4">
-        <div className="w-full flex flex-col md:flex-row gap-x-4">
+        <div className="w-full flex flex-col md:flex-row gap-x-4 gap-y-12">
           <div className="w-full md:w-6/12">
             <h3 className="font-montserrat text-2xl font-semibold text-violet-600 mb-5 flex items-center -ml-[6px]">
               <ChevronLeft
@@ -58,11 +58,11 @@ const WhyChooseMe = () => {
                 className="text-[#FF6347]"
               />
             </h3>
-            <h2 className="font-inter text-6xl font-extrabold leading-tight tracking-tighter text-[#1b273b] dark:text-gray-100">
+            <h2 className="font-inter text-5xl md:text-6xl font-extrabold leading-tight tracking-tighter text-[#1b273b] dark:text-gray-100">
               My Extensive <br />
               List of Skills
             </h2>
-            <p className="font-montserrat text-xl text-gray-600 dark:text-gray-200 mt-4 mb-10 leading-relaxed md:pr-4">
+            <p className="font-montserrat text-lg md:text-xl text-gray-600 dark:text-gray-200 mt-4 mb-10 leading-relaxed md:pr-4">
               "From sleek UI designs to seamless web experiences, I bring a
               diverse set of skills to every project, ensuring everything looks
               great and works flawlessly."

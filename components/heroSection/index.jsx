@@ -22,7 +22,7 @@ const HeroSection = ({ onContactSheet }) => {
               size={30}
               className="text-[#FF6347]"
             />{" "}
-            Hi👋, Welcome to my site.
+            Hi 👋, Welcome to my site.
             <Slash strokeWidth={1.75} className="text-[#FF6347]" />
             <ChevronRight
               strokeWidth={1.75}
@@ -30,7 +30,7 @@ const HeroSection = ({ onContactSheet }) => {
               className="text-[#FF6347]"
             />
           </span>
-          <h1 className="font-inter text-6xl font-black leading-tight mb-8 tracking-tighter text-[#1b273b] dark:text-gray-200">
+          <h1 className="font-inter text-5xl md:text-6xl font-black leading-tight mb-8 tracking-tighter text-[#1b273b] dark:text-gray-200">
             I'm <span className="myname">Vijaya Bhaskar,</span> a
             <br />
             Creative Web Developer.

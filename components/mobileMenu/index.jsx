@@ -1,4 +1,5 @@
 import { CircleX } from "lucide-react";
+import Link from "next/link";
 import React from "react";
 
 const MobileMenu = ({ isMobileMenuOpen, setIsMobileMenuOpen }) => {
@@ -10,18 +11,30 @@ const MobileMenu = ({ isMobileMenuOpen, setIsMobileMenuOpen }) => {
         }`}
       >
         <div className="flex-auto justify-center space-y-10 font-montserrat text-lg text-gray-600 dark:text-white font-normal tracking-normal leading-normal flex flex-col">
-          <button className="py-2.5 px-8 lock border border-gray-400 rounded">
+          <Link
+            href="/"
+            className="py-2.5 px-8 lock border border-gray-400 rounded text-center"
+          >
             Home
-          </button>
-          <button className="py-2.5 px-8 lock border border-gray-400 rounded">
+          </Link>
+          <Link
+            href="/#about"
+            className="py-2.5 px-8 lock border border-gray-400 rounded text-center"
+          >
             About
-          </button>
-          <button className="py-2.5 px-8 lock border border-gray-400 rounded">
+          </Link>
+          <Link
+            href="/#portfolio"
+            className="py-2.5 px-8 lock border border-gray-400 rounded text-center"
+          >
             Portfolio
-          </button>
-          <button className="py-2.5 px-8 lock border border-gray-400 rounded">
+          </Link>
+          <Link
+            href="/resume"
+            className="py-2.5 px-8 lock border border-gray-400 rounded text-center"
+          >
             Resume
-          </button>
+          </Link>
         </div>
         <button className="flex-1" onClick={() => setIsMobileMenuOpen(false)}>
           <CircleX size={52} strokeWidth={1} className="text-violet-400" />

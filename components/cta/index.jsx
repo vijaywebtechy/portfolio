@@ -6,11 +6,11 @@ const CTA = ({ onContactSheet }) => {
   return (
     <section className="cta-section w-full bg-gray-100 dark:bg-slate-950 py-20 border-y border-gray-200 dark:border-gray-800">
       <div className="w-full max-w-6xl mx-auto text-left p-4">
-        <h2 className="font-inter text-6xl font-extrabold leading-tight tracking-tighter text-[#1b273b] dark:text-gray-100">
+        <h2 className="font-inter text-5xl md:text-6xl font-extrabold leading-tight tracking-tighter text-[#1b273b] dark:text-gray-100">
           Got an Idea? <br />
           Let's Build It Together!
         </h2>
-        <p className="font-montserrat text-xl text-gray-600 dark:text-gray-300 mt-4 mb-10 leading-relaxed">
+        <p className="font-montserrat text-lg md:text-xl text-gray-600 dark:text-gray-300 mt-4 mb-10 leading-relaxed">
           Your vision deserves to shine! Whether it's a bold concept or a simple
           spark, I'm here to help you turn it into something extraordinary.
           Let's connect and bring your idea to life today!

@@ -51,6 +51,9 @@ body {
   width: 80%;
   height: 400px;
   margin-left: 0 !important;
+  @media screen and (max-width:768px) {
+    margin-left: auto !important; width: 90%;
+  }
   .swiper-slide {
     display: flex;
     align-items: center;

@@ -106,7 +106,7 @@ const Works = () => {
             className="text-[#FF6347]"
           />
         </h3>
-        <h2 className="font-inter text-6xl font-extrabold leading-tight tracking-tighter text-[#1b273b] dark:text-gray-100">
+        <h2 className="font-inter text-5xl md:text-6xl font-extrabold leading-tight tracking-tighter text-[#1b273b] dark:text-gray-100">
           Checkout my work.
         </h2>
       </div>

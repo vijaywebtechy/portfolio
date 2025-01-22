@@ -16,7 +16,7 @@ const Resume = () => {
     <section className="bg-white dark:bg-slate-950">
       <div className="w-full max-w-6xl mx-auto py-8 px-4">
         <div className="w-full flex md:flex-row flex-col md:gap-x-4">
-          <div className="w-8/12">
+          <div className="w-full md:w-8/12">
             <TitleHeading titleHeading="Summery" />
             <p className="font-montserrat text-base font-normal leading-relaxed mb-12 text-gray-800 dark:text-gray-200">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -254,7 +254,7 @@ const Resume = () => {
             </div>
             {/* ----- ./CAPABILITIES END ----- */}
           </div>
-          <div className="w-4/12 p-4 drop-shadow-2xl decoration-purple-800">
+          <div className="w-full md:w-4/12 p-4 drop-shadow-2xl decoration-purple-800">
             <div className="w-full h-1/6 object-cover overflow-hidden flex items-center justify-center border-2 border-gray-400">
               <Image src={vijaypic} alt="vijay" />
             </div>

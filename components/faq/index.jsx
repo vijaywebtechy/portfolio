@@ -74,11 +74,11 @@ const FAQ = () => {
             className="text-[#FF6347]"
           />
         </h3>
-        <h2 className="font-inter text-6xl font-extrabold leading-tight tracking-tighter text-[#1b273b] dark:text-gray-200">
+        <h2 className="font-inter text-5xl md:text-6xl font-extrabold leading-tight tracking-tighter text-[#1b273b] dark:text-gray-200">
           All the Answers
           <br /> You're Looking For
         </h2>
-        <p className="font-montserrat text-xl text-gray-600 dark:text-gray-200 mt-4 mb-10 leading-relaxed">
+        <p className="font-montserrat text-lg md:text-xl text-gray-600 dark:text-gray-200 mt-4 mb-10 leading-relaxed">
           Dive into our FAQ to uncover answers to the questions on your mind. If
           you don't find what you're looking for, we're just a message away!
         </p>
