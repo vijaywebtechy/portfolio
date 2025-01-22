@@ -120,13 +120,13 @@ const Works = () => {
             handleSwiperEvents(swiper); // Initialize button state on mount
           }}
           onSlideChange={(swiper) => handleSwiperEvents(swiper)}
-          slidesPerView={1.5}
+          slidesPerView={1}
           breakpoints={{
             640: {
               slidesPerView: 1, // Show 1 slide on mobile screens (width < 640px)
             },
             768: {
-              slidesPerView: 2.5, // Show 2 slides on tablets (width >= 640px and < 1024px)
+              slidesPerView: 1.5, // Show 2 slides on tablets (width >= 640px and < 1024px)
             },
             1024: {
               slidesPerView: 2.5, // Show 2 slides on web (width >= 1024px)

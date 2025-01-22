@@ -103,12 +103,12 @@ export default FAQ;
 const AccordionItem = ({ title, content, isOpen, onClick }) => {
   return (
     <div
-      className={`border shadow-sm rounded-lg mb-4 overflow-hidden ${
-        isOpen ? "border-violet-800" : "border-gray-200"
+      className={`border rounded-lg mb-4 overflow-hidden ${
+        isOpen ? "border-violet-800" : "border-gray-300"
       }`}
     >
       <button
-        className="w-full flex items-center justify-between px-4 py-6 hover:bg-gray-50 dark:hover:bg-violet-600 transition-all group"
+        className="w-full flex items-center justify-between text-left px-4 py-6 hover:bg-gray-50 dark:hover:bg-violet-600 transition-all group"
         onClick={onClick}
       >
         <span

@@ -2,12 +2,15 @@ import React from "react";
 import Link from "next/link";
 import { SquareSquare } from "lucide-react";
 import dynamic from "next/dynamic";
+import Image from "next/image";
+import menuToggle from "@/public/images/icons/menu.png";
+import menuToggleB from "@/public/images/icons/menu-b.png";
 const ThemeToggle = dynamic(() => import("../themeToggle"), { ssr: false });
 
-const Header = ({ onContactSheet }) => {
+const Header = ({ onContactSheet, onMobileMenu }) => {
   return (
     <div className="border-b border-gray-800/10 font-montserrat h-50 z-10 sticky top-0 w-full bg-white/50 backdrop-blur h-[85px] dark:bg-slate-950 dark:text-white">
-      <div className="max-w-6xl mx-auto grid grid-cols-3 items-center justify-between p-4 h-full">
+      <div className="max-w-6xl mx-auto grid grid-cols-2 lg:grid-cols-3 items-center justify-between p-4 h-full">
         <div>
           <Link
             href="/"
@@ -17,7 +20,7 @@ const Header = ({ onContactSheet }) => {
             <strong>VIUI.</strong>
           </Link>
         </div>
-        <nav className="h-full flex items-center space-x-4 text-base font-medium">
+        <nav className="h-full hidden lg:flex items-center space-x-4 text-base font-medium">
           <Link
             href="/#about"
             className="px-4 py-2 text-gray-600 dark:text-gray-400 border-2 border-transparent hover:border-gray-400 dark:hover:text-gray-200 rounded-md"
@@ -39,7 +42,7 @@ const Header = ({ onContactSheet }) => {
         </nav>
         <div className="h-full flex items-center justify-end">
           <ThemeToggle />
-          <button className="p-1 ml-2 opacity-85 hover:opacity-100">
+          <button className="p-1 ml-2 opacity-85 hover:opacity-100 hidden lg:inline-block">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               x="0px"
@@ -54,7 +57,7 @@ const Header = ({ onContactSheet }) => {
           </button>
           <button
             onClick={onContactSheet}
-            className={`flex items-center justify-center gap-x-3 font-montserrat py-2 px-4 ml-4 border-2 border-gray-400 dark:border-gray-600 text-base leading-normal 
+            className={`hidden lg:flex items-center justify-center gap-x-3 font-montserrat py-2 px-4 ml-4 border-2 border-gray-400 dark:border-gray-600 text-base leading-normal 
     rounded-md font-medium text-gray-600 dark:text-gray-300 
     hover:text-violet-600 dark:hover:text-violet-600 hover:border-violet-800 dark:hover:border-violet-800 
     group transition-all duration-300 
@@ -62,6 +65,14 @@ const Header = ({ onContactSheet }) => {
           >
             {" "}
             Let's Work
+          </button>
+          <button className="p-0 ml-4 block lg:hidden" onClick={onMobileMenu}>
+            <div className="hidden dark:block">
+              <Image src={menuToggle} alt="menu toggle" />
+            </div>
+            <div className="dark:hidden">
+              <Image src={menuToggleB} alt="menu toggle" />
+            </div>
           </button>
         </div>
       </div>

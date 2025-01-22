@@ -36,10 +36,10 @@ const HeroSection = ({ onContactSheet }) => {
             Creative Web Developer.
           </h1>
           <p className="font-montserrat text-lg leading-relaxed text-gray-800 dark:text-gray-200 font-normal">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis
-            rerum maiores voluptatem, dicta consectetur ipsum eum adipisci illum
-            quod soluta, repellendus officia tempore quidem dolor ut hic
-            pariatur totam reiciendis!
+            I design and develop modern, responsive websites tailored to your
+            needs. My focus is on creating visually appealing and user-friendly
+            experiences that work seamlessly across devices. Let's build
+            something exceptional together.
           </p>
           <div className="flex items-center gap-5 mt-16 flex-wrap">
             <button
@@ -56,12 +56,12 @@ const HeroSection = ({ onContactSheet }) => {
                 size={30}
               />
             </button>
-            <button
-              href="#"
-              className="h-[54px] min-w-40 flex items-center justify-center font-montserrat py-2.5 px-5 text-lg border-2 border-gray-400 leading-normal rounded-md font-medium text-gray-600 dark:text-gray-200"
+            <Link
+              href="/resume"
+              className="h-[54px] min-w-40 flex items-center justify-center font-montserrat py-2.5 px-5 text-lg border-2 border-gray-400 leading-normal rounded-md font-medium text-gray-600 dark:text-gray-200 transition-all duration-300"
             >
               Resume
-            </button>
+            </Link>
           </div>
         </div>
         <div className={`md:col-span-3 relative ${styles.proImg}`}></div>

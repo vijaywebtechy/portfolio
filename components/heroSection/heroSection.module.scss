@@ -4,11 +4,11 @@
     background-size: auto, cover; /* First image uses default size, second covers */
     background-position: bottom left, center; /* Position for the first and second image */
     height: calc(100vh - 165px);
+    @media screen and (max-width:768px) {
+        height: 100%; padding: 80px 0;
+    }
+    @media screen and (max-width:640px) {
+        height: 100%; padding: 60px 0;
+    }
 }
 
-// .proImg{
-//     background-image: url("../../public/images/background/programming.jpg");
-//     background-size: cover;
-//     background-position: center;
-//     background-repeat: no-repeat;
-// }

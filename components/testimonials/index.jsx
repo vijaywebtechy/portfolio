@@ -102,7 +102,7 @@ const Testimonials = () => {
           </div>
           <div className="w-full md:w-7/12">
             <Swiper
-              slidesPerView={1.5}
+              slidesPerView={1}
               modules={[Navigation]}
               onSwiper={(swiper) => {
                 swiperRef.current = swiper;
@@ -111,7 +111,7 @@ const Testimonials = () => {
               onSlideChange={(swiper) => handleSwiperEvents(swiper)}
               breakpoints={{
                 640: {
-                  slidesPerView: 1.5, // Show 1 slide on mobile screens (width < 640px)
+                  slidesPerView: 1, // Show 1 slide on mobile screens (width < 640px)
                 },
                 768: {
                   slidesPerView: 1.5, // Show 2 slides on tablets (width >= 640px and < 1024px)
