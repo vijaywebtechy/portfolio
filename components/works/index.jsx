@@ -17,6 +17,7 @@ import processweaverWeb from "@/public/images/works/processweaver-web.png";
 import linarcWeb from "@/public/images/works/linarc-web.png";
 import skillpayWeb from "@/public/images/works/skillpay-web.png";
 import epistemoWeb from "@/public/images/works/epistemo-web.png";
+import vijayPortfolio from "@/public/images/works/vijay-portfolio.png";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -72,6 +73,14 @@ const projectData = [
     imageAlt: "Project Screenshot",
     projectName: "Epistemo",
     technologies: ["HTML", "CSS3", "JavaScript", "Bootstrap"],
+    description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit...",
+    projectLink: "https://example.com",
+  },
+  {
+    imageUrl: vijayPortfolio,
+    imageAlt: "Project Screenshot",
+    projectName: "Portfolio",
+    technologies: ["HTML", "CSS3", "JavaScript", "Tailwind", "Next.js"],
     description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit...",
     projectLink: "https://example.com",
   },

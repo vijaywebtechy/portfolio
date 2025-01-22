@@ -15,7 +15,7 @@ export default function App({ Component, pageProps }) {
   const handleContactClose = () => setIsContactOpen(false);
 
   const handleMobileMenuOpen = () => setIsMobileMenuOpen(true);
-  const handleMobileMenuClose = () => setIsMobileMenuOpen(false);
+
   return (
     <ThemeProvider attribute={"class"}>
       <div
