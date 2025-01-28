@@ -1,5 +1,4 @@
 import React, { useRef, useState } from "react";
-import styles from "./works.module.scss";
 import {
   ChevronLeft,
   ChevronRight,
@@ -9,6 +8,7 @@ import {
   Slash,
 } from "lucide-react";
 import Image from "next/image";
+import { router } from "next/router";
 
 // Images
 import ideeoWeb from "@/public/images/works/ideeo-web.png";
@@ -18,6 +18,8 @@ import linarcWeb from "@/public/images/works/linarc-web.png";
 import skillpayWeb from "@/public/images/works/skillpay-web.png";
 import epistemoWeb from "@/public/images/works/epistemo-web.png";
 import vijayPortfolio from "@/public/images/works/vijay-portfolio.png";
+import cloud23Web from "@/public/images/works/cloud23-web.png";
+import loyolaWeb from "@/public/images/works/loyola-academy-web.png";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -27,12 +29,11 @@ import "swiper/swiper-bundle.css";
 
 const projectData = [
   {
-    imageUrl: ideeoWeb,
+    imageUrl: linarcWeb,
     imageAlt: "Project Screenshot",
-    projectName: "IDEEO",
+    projectName: "Linarc",
     technologies: ["HTML", "CSS3", "JavaScript", "Bootstrap"],
-    description:
-      "Lorem ipsum dolor sit, amet consectetur Lorem ipsum dolor sit, amet consectetur adipisicing elit Lorem ipsum dolor sit, amet consectetur adipisicing elit Lorem ipsum dolor sit, amet consectetur adipisicing elit Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+    description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit...",
     projectLink: "https://example.com",
   },
   {
@@ -44,19 +45,10 @@ const projectData = [
     projectLink: "https://example.com",
   },
   {
-    imageUrl: processweaverWeb,
+    imageUrl: cloud23Web,
     imageAlt: "Project Screenshot",
-    projectName: "Processweaver",
-    technologies: ["HTML", "CSS3", "JavaScript", "Bootstrap"],
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit Lorem ipsum dolor sit, amet consectetur adipisicing elit Lorem ipsum dolor sit, amet consectetur adipisicing elit Lorem ipsum dolor sit, amet consectetur adipisicing elit",
-    projectLink: "https://example.com",
-  },
-  {
-    imageUrl: linarcWeb,
-    imageAlt: "Project Screenshot",
-    projectName: "Linarc",
-    technologies: ["HTML", "CSS3", "JavaScript", "Bootstrap"],
+    projectName: "Cloud23",
+    technologies: ["HTML", "CSS3", "JavaScript", "Tailwind", "Next.js"],
     description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit...",
     projectLink: "https://example.com",
   },
@@ -69,19 +61,20 @@ const projectData = [
     projectLink: "https://example.com",
   },
   {
-    imageUrl: epistemoWeb,
+    imageUrl: vijayPortfolio,
     imageAlt: "Project Screenshot",
-    projectName: "Epistemo",
-    technologies: ["HTML", "CSS3", "JavaScript", "Bootstrap"],
+    projectName: "VIUI Portfolio",
+    technologies: ["HTML", "CSS3", "JavaScript", "Tailwind", "Next.js"],
     description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit...",
     projectLink: "https://example.com",
   },
   {
-    imageUrl: vijayPortfolio,
+    imageUrl: processweaverWeb,
     imageAlt: "Project Screenshot",
-    projectName: "Portfolio",
-    technologies: ["HTML", "CSS3", "JavaScript", "Tailwind", "Next.js"],
-    description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit...",
+    projectName: "Processweaver",
+    technologies: ["HTML", "CSS3", "JavaScript", "Bootstrap"],
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit Lorem ipsum dolor sit, amet consectetur adipisicing elit Lorem ipsum dolor sit, amet consectetur adipisicing elit Lorem ipsum dolor sit, amet consectetur adipisicing elit",
     projectLink: "https://example.com",
   },
 ];
@@ -93,6 +86,10 @@ const Works = () => {
   const handleSwiperEvents = (swiper) => {
     setIsPrevDisabled(swiper.isBeginning);
     setIsNextDisabled(swiper.isEnd);
+  };
+
+  const handleViewMore = () => {
+    router.push("/works");
   };
 
   return (
@@ -166,16 +163,30 @@ const Works = () => {
           >
             <CircleChevronLeft strokeWidth={1} size={50} />
           </button>
-          <button
-            className={`bg-transparent text-gray-600 dark:text-gray-100 rounded-full transition-all duration-300 group
-  hover:shadow-[0_4px_20px_0_rgba(138,43,226,0.5),_0_4px_20px_0_rgba(255,99,71,0.5)] ${
-    isNextDisabled ? "opacity-40 cursor-not-allowed" : "hover:text-violet-600"
-  }`}
-            onClick={() => swiperRef.current?.slideNext()}
-            disabled={isNextDisabled}
-          >
-            <CircleChevronRight strokeWidth={1} size={50} />
-          </button>
+          {!isNextDisabled ? (
+            <button
+              className={`bg-transparent text-gray-600 dark:text-gray-100 rounded-full transition-all duration-300 group
+hover:shadow-[0_4px_20px_0_rgba(138,43,226,0.5),_0_4px_20px_0_rgba(255,99,71,0.5)] ${
+                isNextDisabled
+                  ? "opacity-40 cursor-not-allowed hidden"
+                  : "hover:text-violet-600"
+              }`}
+              onClick={() => swiperRef.current?.slideNext()}
+              disabled={isNextDisabled}
+            >
+              <CircleChevronRight strokeWidth={1} size={50} />
+            </button>
+          ) : (
+            <button
+              onClick={handleViewMore}
+              className="flex items-center justify-center gap-x-3 font-montserrat py-2 px-4 ml-4 border-2 border-gray-600 dark:border-gray-400 text-base leading-normal 
+rounded-md font-medium text-gray-600 dark:text-gray-300 
+hover:text-violet-600 dark:hover:text-violet-600 hover:border-violet-800 dark:hover:border-violet-800 
+hover:shadow-[0_4px_20px_rgba(138,43,226,0.5),_0_4px_20px_rgba(255,99,71,0.5)]"
+            >
+              View More
+            </button>
+          )}
         </div>
       </div>
       {/* -------------------- ./Swiper Slider -------------------- */}
