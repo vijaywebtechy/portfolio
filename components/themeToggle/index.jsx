@@ -14,7 +14,7 @@ function ThemeToggle() {
       className="toggle-container border-gray-200 rounded-full flex items-center p-1"
       onClick={toggleSwitch}
     >
-      <div className="toggle-handle">
+      <div className="toggle-handle rotateInfinite">
         {theme === "dark" ? (
           <Moon size={24} strokeWidth={1.5} />
         ) : (

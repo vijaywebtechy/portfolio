@@ -195,8 +195,40 @@ body {
   background-position: top left, center; /* Position for the first and second image */
 }
 
-.im{
-  /* Apply a color filter */
-  filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%) !important;
 
+.drone {
+  animation: float 15s ease-in-out infinite;
+}
+.rotateInfinite{
+  animation: rotateInfinite 5s linear infinite;
+}
+
+// Key Frames
+@keyframes float {
+  0% {
+    transform: translate(0);
+}
+
+25% {
+    transform: translate(100px, -50px);
+}
+50% {
+    transform: translate(200px);
+}
+75% {
+    transform: translate(100px, 50px);
+}
+100% {
+    transform: translate(0);
+}
+}
+
+
+@keyframes rotateInfinite {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
