@@ -85,10 +85,23 @@ const About = () => {
               , I'm all about making the web a cooler place to hang out.
             </p>
             <p>
-              When I'm not coding, I'm probably on a heroic quest to untangle my
-              headphone wires (spoiler: it's a never-ending battle).so it's
-              easier to find me on LinkedIn.😁
+              Connecting here won't increase your WiFi speed, but it'll boost
+              your network! Let's link up - find me on LinkedIn.😁
             </p>
+          </div>
+          <div className="flex gap-3 mt-5">
+            <button
+              type="button"
+              className="text-base text-gray-600 dark:text-slate-200 font-medium border border-gray-500 rounded-full rotate-2 p-0.5 px-3 bg-gray-200 dark:bg-slate-600"
+            >
+              Intrests
+            </button>
+            <button
+              type="button"
+              className="text-base text-gray-600 dark:text-slate-200 font-medium border border-gray-500 rounded-full -rotate-6 p-0.5 px-3 bg-gray-200 dark:bg-slate-600"
+            >
+              Pictures
+            </button>
           </div>
         </div>
       </div>

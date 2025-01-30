@@ -7,6 +7,7 @@ import QuoteScroll from "@/components/quoteScroll";
 import Testimonials from "@/components/testimonials";
 import WhyChooseMe from "@/components/whychooseme";
 import Works from "@/components/works";
+import MyServices from "@/components/myservices";
 
 const Home = ({ onContactSheet }) => {
   return (
@@ -16,6 +17,7 @@ const Home = ({ onContactSheet }) => {
       <About />
       <WhyChooseMe />
       <Works />
+      <MyServices />
       <CTA onContactSheet={onContactSheet} />
       <Testimonials />
       <FAQ />

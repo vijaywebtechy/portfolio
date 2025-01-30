@@ -11,15 +11,13 @@ import Image from "next/image";
 import { router } from "next/router";
 
 // Images
-import ideeoWeb from "@/public/images/works/ideeo-web.png";
+import wesptc from "@/public/images/works/wesptc-web.png";
 import azureanWeb from "@/public/images/works/azurean-web.png";
 import processweaverWeb from "@/public/images/works/processweaver-web.png";
 import linarcWeb from "@/public/images/works/linarc-web.png";
 import skillpayWeb from "@/public/images/works/skillpay-web.png";
-import epistemoWeb from "@/public/images/works/epistemo-web.png";
 import vijayPortfolio from "@/public/images/works/vijay-portfolio.png";
 import cloud23Web from "@/public/images/works/cloud23-web.png";
-import loyolaWeb from "@/public/images/works/loyola-academy-web.png";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -28,6 +26,14 @@ import { Navigation } from "swiper/modules";
 import "swiper/swiper-bundle.css";
 
 const projectData = [
+  {
+    imageUrl: wesptc,
+    imageAlt: "Project Screenshot",
+    projectName: "WES",
+    technologies: ["HTML", "CSS3", "JavaScript", "Bootstrap"],
+    description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit...",
+    projectLink: "https://example.com",
+  },
   {
     imageUrl: linarcWeb,
     imageAlt: "Project Screenshot",

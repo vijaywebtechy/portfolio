@@ -36,6 +36,12 @@ body {
   background-size: auto, cover; /* First image uses default size, second covers */
   background-position: top left, center; /* Position for the first and second image */
 }
+.services-section{
+  background-image: url("../public/images/background/square-texture.svg"),url("../public/images/background/section-bg-two.png");
+  background-repeat: repeat, no-repeat; /* First image repeats, second doesn't */
+  background-size: auto, cover; /* First image uses default size, second covers */
+  background-position: top left, center; /* Position for the first and second image */
+}
 
 
 .myname {
@@ -187,4 +193,10 @@ body {
   background-repeat: repeat, no-repeat; /* First image repeats, second doesn't */
   background-size: auto, cover; /* First image uses default size, second covers */
   background-position: top left, center; /* Position for the first and second image */
+}
+
+.im{
+  /* Apply a color filter */
+  filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%) !important;
+
 }

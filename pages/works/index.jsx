@@ -12,15 +12,16 @@ import epistemoWeb from "@/public/images/works/epistemo-web.png";
 import vijayPortfolio from "@/public/images/works/vijay-portfolio.png";
 import cloud23Web from "@/public/images/works/cloud23-web.png";
 import loyolaWeb from "@/public/images/works/loyola-academy-web.png";
+import nextErgo from "@/public/images/works/nextergo-web.png";
+import faceq from "@/public/images/works/faceq-web.png";
 
 const projectData = [
   {
-    imageUrl: ideeoWeb,
+    imageUrl: nextErgo,
     imageAlt: "Project Screenshot",
-    projectName: "IDEEO",
+    projectName: "NextErgo",
     technologies: ["HTML", "CSS3", "JavaScript", "Bootstrap"],
-    description:
-      "Lorem ipsum dolor sit, amet consectetur Lorem ipsum dolor sit, amet consectetur adipisicing elit Lorem ipsum dolor sit, amet consectetur adipisicing elit Lorem ipsum dolor sit, amet consectetur adipisicing elit Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+    description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit...",
     projectLink: "https://example.com",
   },
   {
@@ -78,6 +79,24 @@ const projectData = [
     projectName: "Cloud23",
     technologies: ["HTML", "CSS3", "JavaScript", "Tailwind", "Next.js"],
     description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit...",
+    projectLink: "https://example.com",
+  },
+  {
+    imageUrl: ideeoWeb,
+    imageAlt: "Project Screenshot",
+    projectName: "IDEEO",
+    technologies: ["HTML", "CSS3", "JavaScript", "Bootstrap"],
+    description:
+      "Lorem ipsum dolor sit, amet consectetur Lorem ipsum dolor sit, amet consectetur adipisicing elit Lorem ipsum dolor sit, amet consectetur adipisicing elit Lorem ipsum dolor sit, amet consectetur adipisicing elit Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
+    projectLink: "https://example.com",
+  },
+  {
+    imageUrl: faceq,
+    imageAlt: "Project Screenshot",
+    projectName: "faceQ",
+    technologies: ["HTML", "CSS3", "JavaScript", "Bootstrap"],
+    description:
+      "Lorem ipsum dolor sit, amet consectetur Lorem ipsum dolor sit, amet consectetur adipisicing elit Lorem ipsum dolor sit, amet consectetur adipisicing elit Lorem ipsum dolor sit, amet consectetur adipisicing elit Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
     projectLink: "https://example.com",
   },
   {

@@ -7,13 +7,7 @@ import { Autoplay } from "swiper/modules";
 
 // Import Swiper styles
 import "swiper/swiper-bundle.css";
-import {
-  Award,
-  LaptopMinimalCheck,
-  Layers,
-  Paintbrush,
-  ScanEye,
-} from "lucide-react";
+import { Award, LaptopMinimalCheck, Layers } from "lucide-react";
 
 const QuoteScroll = () => {
   const slides = [
@@ -22,20 +16,12 @@ const QuoteScroll = () => {
       icon: <Award size={24} className="dark:text-[#ff6347]" />,
     },
     {
-      text: "Good design is clear; great design is invisible.",
-      icon: <ScanEye size={24} className="dark:text-[#ff6347]" />,
-    },
-    {
       text: "From wireframes to wonders—building experiences that matter.",
       icon: <LaptopMinimalCheck size={24} className="dark:text-[#ff6347]" />,
     },
     {
       text: "User-first design, every step of the way.",
       icon: <Layers size={24} className="dark:text-[#ff6347]" />,
-    },
-    {
-      text: "Pixels are my playground; code is my paintbrush.",
-      icon: <Paintbrush size={24} className="dark:text-[#ff6347]" />,
     },
   ];
 

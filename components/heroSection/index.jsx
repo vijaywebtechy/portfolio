@@ -8,6 +8,7 @@ import {
   Slash,
 } from "lucide-react";
 import Image from "next/image";
+import HeroRightBlock from "./herorightblock";
 
 const HeroSection = ({ onContactSheet }) => {
   return (
@@ -64,7 +65,39 @@ const HeroSection = ({ onContactSheet }) => {
             </Link>
           </div>
         </div>
-        <div className={`md:col-span-3 relative ${styles.proImg}`}></div>
+        <div className={`md:col-span-3`}>
+          <HeroRightBlock />
+          {/* <div className="w-full h-full flex flex-wrap gap-4 justify-evenly items-center">
+            <Image className="animate-bounce dark:im" src={unchat} alt="chat" />
+            <Image className="animate-bounce" src={uncoffee} alt="coffee" />
+            <Image className="animate-bounce" src={unheart} alt="heart" />
+            <Image
+              className="animate-bounce"
+              src={unicecream}
+              alt="ice cream"
+            />
+            <Image className="animate-bounce" src={uncode} alt="code" />
+            <Image className="animate-bounce" src={unstar} alt="star" />
+            <Image
+              className="animate-bounce"
+              src={unstickynote}
+              alt="sticky notes"
+            />
+            <Image className="animate-bounce" src={unlove} alt="love" />
+            <Image className="animate-bounce" src={unarrow} alt="arrow" />
+            <Image
+              className="animate-bounce"
+              src={unsmiley}
+              alt="coding image"
+            />
+            <Image src={uncoding} alt="coding image" />
+            <Image
+              className="animate-bounce"
+              src={ununerline}
+              alt="coding image"
+            />
+          </div> */}
+        </div>
       </div>
     </div>
   );
