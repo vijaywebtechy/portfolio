@@ -9,81 +9,14 @@ import {
 } from "lucide-react";
 import Image from "next/image";
 import { router } from "next/router";
+import { projectData } from "@/utils/worksList";
 
-// Images
-import wesptc from "@/public/images/works/wesptc-web.png";
-import azureanWeb from "@/public/images/works/azurean-web.png";
-import processweaverWeb from "@/public/images/works/processweaver-web.png";
-import linarcWeb from "@/public/images/works/linarc-web.png";
-import skillpayWeb from "@/public/images/works/skillpay-web.png";
-import vijayPortfolio from "@/public/images/works/vijay-portfolio.png";
-import cloud23Web from "@/public/images/works/cloud23-web.png";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 // Import Swiper styles
 import "swiper/swiper-bundle.css";
-
-const projectData = [
-  {
-    imageUrl: wesptc,
-    imageAlt: "Project Screenshot",
-    projectName: "WES",
-    technologies: ["HTML", "CSS3", "JavaScript", "Bootstrap"],
-    description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit...",
-    projectLink: "https://example.com",
-  },
-  {
-    imageUrl: linarcWeb,
-    imageAlt: "Project Screenshot",
-    projectName: "Linarc",
-    technologies: ["HTML", "CSS3", "JavaScript", "Bootstrap"],
-    description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit...",
-    projectLink: "https://example.com",
-  },
-  {
-    imageUrl: azureanWeb,
-    imageAlt: "Project Screenshot",
-    projectName: "Azurean",
-    technologies: ["HTML", "CSS3", "JavaScript", "Bootstrap"],
-    description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit...",
-    projectLink: "https://example.com",
-  },
-  {
-    imageUrl: cloud23Web,
-    imageAlt: "Project Screenshot",
-    projectName: "Cloud23",
-    technologies: ["HTML", "CSS3", "JavaScript", "Tailwind", "Next.js"],
-    description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit...",
-    projectLink: "https://example.com",
-  },
-  {
-    imageUrl: skillpayWeb,
-    imageAlt: "Project Screenshot",
-    projectName: "Skillpay",
-    technologies: ["HTML", "CSS3", "JavaScript", "Bootstrap"],
-    description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit...",
-    projectLink: "https://example.com",
-  },
-  {
-    imageUrl: vijayPortfolio,
-    imageAlt: "Project Screenshot",
-    projectName: "VIUI Portfolio",
-    technologies: ["HTML", "CSS3", "JavaScript", "Tailwind", "Next.js"],
-    description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit...",
-    projectLink: "https://example.com",
-  },
-  {
-    imageUrl: processweaverWeb,
-    imageAlt: "Project Screenshot",
-    projectName: "Processweaver",
-    technologies: ["HTML", "CSS3", "JavaScript", "Bootstrap"],
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit Lorem ipsum dolor sit, amet consectetur adipisicing elit Lorem ipsum dolor sit, amet consectetur adipisicing elit Lorem ipsum dolor sit, amet consectetur adipisicing elit",
-    projectLink: "https://example.com",
-  },
-];
 
 const Works = () => {
   const swiperRef = useRef(null);

@@ -19,25 +19,18 @@ const Resume = () => {
           <div className="w-full md:w-8/12">
             <TitleHeading titleHeading="Summery" />
             <p className="font-montserrat text-base font-normal leading-relaxed mb-12 text-gray-800 dark:text-gray-200">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Consequatur, dicta numquam cum impedit alias fugiat sequi officia
-              aliquid. Dolor, id quidem saepe voluptatibus deserunt fuga autem
-              ipsa porro cupiditate sunt numquam cum impedit alias fugiat sequi
-              officia aliquid. Dolor, id quidem saepe voluptatibus deserunt fuga
-              autem ipsa porro cupiditate sunt numquam cum impedit alias fugiat
-              sequi officia aliquid. Dolor, id quidem saepe voluptatibus
-              deserunt fuga autem ipsa porro cupiditate sunt.
+            Experienced Web Developer with 6+ years of expertise in building responsive and scalable web applications. Skilled in React.js, Next.js, JavaScript, Tailwind CSS, Material-UI, and SCSS, with a strong focus on UI development and performance optimization. Worked on OTT platforms, educational tech, healthcare, and enterprise applications, delivering user-friendly, accessible, and high-performance web experiences. Passionate about creating intuitive interfaces, and enhancing user engagement through modern web technologies.
             </p>
 
             {/* ----- EXPERIENCE ----- */}
             <div className="mb-6">
               <TitleHeading titleHeading="Experience" />
               <h3 className="font-montserrat text-xl font-semibold leading-tight text-violet-600">
-                Software Engineer - <span>Present</span>
+                Senior Software Engineer - <span>Present</span>
               </h3>
               <div className="flex flex-wrap items-center gap-3 my-1">
                 <p className="font-montserrat text-base font-medium leading-relaxed text-gray-800 dark:text-gray-200">
-                  ABC Technlogies
+                  Conscendo Technologies
                 </p>
                 <span className="font-montserrat text-base font-medium leading-relaxed text-gray-400 dark:text-gray-400 italic">
                   Hyderabad, India
@@ -46,34 +39,33 @@ const Resume = () => {
               <ul className="list-disc pl-5 space-y-2 my-4 text-gray-800 dark:text-gray-200">
                 <li>
                   <p className="font-montserrat text-base leading-relaxed">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Velit labore asperiores praesentium porro, architecto
-                    accusantium, quae delectus dolorum mollitia
+                  developing scalable web applications using Next.js, React.js, and Tailwind, Material-UI.
                   </p>
                 </li>
                 <li>
                   <p className="font-montserrat text-base leading-relaxed">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Velit labore asperiores praesentium porro, architecto
-                    accusantium, quae delectus dolorum mollitia
+                  Driving UI/UX enhancements to deliver intuitive and engaging user experiences.
                   </p>
                 </li>
                 <li>
                   <p className="font-montserrat text-base leading-relaxed">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Velit labore asperiores praesentium porro, architecto
-                    accusantium, quae delectus dolorum mollitia
+                  Optimizing application performance, improving accessibility, and implementing best coding practices.
+                  </p>
+                </li>
+                <li>
+                  <p className="font-montserrat text-base leading-relaxed">
+                  Collaborating with designers, backend engineers, and stakeholders to ensure seamless feature delivery.
                   </p>
                 </li>
               </ul>
             </div>
             <div className="mb-6">
               <h3 className="font-montserrat text-xl font-semibold leading-tight text-violet-600">
-                Software Engineer - <span>( 2023-2025 )</span>
+                Senior Software Engineer
               </h3>
               <div className="flex flex-wrap items-center gap-3 my-1">
-                <p className="font-montserrat text-base font-medium leading-relaxed text-gray-600">
-                  ABC Technlogies
+                <p className="font-montserrat text-base font-medium leading-relaxed text-gray-800 dark:text-gray-200">
+                  YUPP Video Services Pvt Ltd
                 </p>
                 <span className="font-montserrat text-base font-medium leading-relaxed text-gray-400 italic">
                   Hyderabad, India
@@ -82,34 +74,23 @@ const Resume = () => {
               <ul className="list-disc pl-5 space-y-2 my-4 text-gray-800 dark:text-gray-200">
                 <li>
                   <p className="font-montserrat text-base leading-relaxed">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Velit labore asperiores praesentium porro, architecto
-                    accusantium, quae delectus dolorum mollitia
+                  Developed and optimized OTT (Over-the-Top) UI platforms, ensuring seamless video streaming experiences.
                   </p>
                 </li>
                 <li>
                   <p className="font-montserrat text-base leading-relaxed">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Velit labore asperiores praesentium porro, architecto
-                    accusantium, quae delectus dolorum mollitia
-                  </p>
-                </li>
-                <li>
-                  <p className="font-montserrat text-base leading-relaxed">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Velit labore asperiores praesentium porro, architecto
-                    accusantium, quae delectus dolorum mollitia
+                  Built responsive and interactive user interfaces using React.js and Next.js for web-based streaming applications.
                   </p>
                 </li>
               </ul>
             </div>
             <div className="mb-6">
               <h3 className="font-montserrat text-xl font-semibold leading-tight text-violet-600">
-                Software Engineer - <span>( 2023-2025 )</span>
+                Senior Software Engineer
               </h3>
               <div className="flex flex-wrap items-center gap-3 my-1">
-                <p className="font-montserrat text-base font-medium leading-relaxed text-gray-800">
-                  ABC Technlogies
+                <p className="font-montserrat text-base font-medium leading-relaxed text-gray-800 dark:text-gray-200">
+                  Turito Pvt Ltd
                 </p>
                 <span className="font-montserrat text-base font-medium leading-relaxed text-gray-400 italic">
                   Hyderabad, India
@@ -118,24 +99,49 @@ const Resume = () => {
               <ul className="list-disc pl-5 space-y-2 my-4 text-gray-800 dark:text-gray-200">
                 <li>
                   <p className="font-montserrat text-base leading-relaxed">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Velit labore asperiores praesentium porro, architecto
-                    accusantium, quae delectus dolorum mollitia
+                    Played a key role in building a robust educational platform, focusing on UI/UX improvements.
                   </p>
                 </li>
                 <li>
                   <p className="font-montserrat text-base leading-relaxed">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Velit labore asperiores praesentium porro, architecto
-                    accusantium, quae delectus dolorum mollitia
+                  Developed reusable React components and implemented responsive design for a seamless mobile experience.
                   </p>
                 </li>
                 <li>
                   <p className="font-montserrat text-base leading-relaxed">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Velit labore asperiores praesentium porro, architecto
-                    accusantium, quae delectus dolorum mollitia
+                  Integrated Storyblok CMS for dynamic content management and improved flexibility.
                   </p>
+                </li>
+                <li>
+                  <p className="font-montserrat text-base leading-relaxed">
+                  Collaborated with designers and product managers to create user-friendly learning interfaces.
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div className="mb-6">
+              <h3 className="font-montserrat text-xl font-semibold leading-tight text-violet-600">
+                Software Engineer
+              </h3>
+              <div className="flex flex-wrap items-center gap-3 my-1">
+                <p className="font-montserrat text-base font-medium leading-relaxed text-gray-800 dark:text-gray-200">
+                  IDEEO Pvt Ltd
+                </p>
+                <span className="font-montserrat text-base font-medium leading-relaxed text-gray-400 italic">
+                  Hyderabad, India
+                </span>
+              </div>
+              <ul className="list-disc pl-5 space-y-2 my-4 text-gray-800 dark:text-gray-200">
+                <li>
+                  <p className="font-montserrat text-base leading-relaxed">
+                    Designed and developed interactive web applications with React.js and SCSS.
+                  </p>
+                </li>
+                <li>
+                  <p className="font-montserrat text-base leading-relaxed">Implemented frontend solutions with a strong emphasis on performance and scalability.</p>
+                </li>
+                <li>
+                  <p className="font-montserrat text-base leading-relaxed">Contributed to code reviews, debugging, and optimizing frontend workflows.</p>
                 </li>
               </ul>
             </div>
@@ -149,8 +155,8 @@ const Resume = () => {
                   Bachelor of Technology - <span> 2013-2017 </span>
                 </h3>
                 <div className="flex flex-wrap items-center gap-3 my-1">
-                  <p className="font-montserrat text-base font-medium leading-relaxed text-gray-600">
-                    ABC Insitute of Technlogies
+                  <p className="font-montserrat text-base font-medium leading-relaxed text-gray-800 dark:text-gray-200">
+                    MRIET
                   </p>
                   <span className="font-montserrat text-base font-medium leading-relaxed text-gray-400 italic">
                     Hyderabad, Telangana, India
@@ -162,8 +168,8 @@ const Resume = () => {
                   Intermediate - <span> 2011-2013 </span>
                 </h3>
                 <div className="flex flex-wrap items-center gap-3 my-1">
-                  <p className="font-montserrat text-base font-medium leading-relaxed text-gray-600">
-                    ABC Insitute of Technlogies
+                  <p className="font-montserrat text-base font-medium leading-relaxed text-gray-800 dark:text-gray-200">
+                    Shanthinikethan Jr College
                   </p>
                   <span className="font-montserrat text-base font-medium leading-relaxed text-gray-400 italic">
                     Warangal, Telangana, India
@@ -175,8 +181,8 @@ const Resume = () => {
                   SSC - <span> 2010-2011 </span>
                 </h3>
                 <div className="flex flex-wrap items-center gap-3 my-1">
-                  <p className="font-montserrat text-base font-medium leading-relaxed text-gray-600">
-                    ABC Insitute of Technlogies
+                  <p className="font-montserrat text-base font-medium leading-relaxed text-gray-800 dark:text-gray-200">
+                    T.W.A.H.S Govt High School
                   </p>
                   <span className="font-montserrat text-base font-medium leading-relaxed text-gray-400 italic">
                     Warangal, Telangana, India
