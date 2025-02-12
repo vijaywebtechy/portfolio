@@ -169,7 +169,7 @@ const WorksCard = ({
             </span>
           ))}
         </div>
-        <p className="font-montserrat text-base leading-relaxed text-gray-600 dark:text-gray-100 line-clamp-4">
+        <p className="font-montserrat text-base leading-relaxed text-gray-600 dark:text-gray-100 line-clamp-3">
           {description}
         </p>
       </div>

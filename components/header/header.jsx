@@ -23,19 +23,19 @@ const Header = ({ onContactSheet, onMobileMenu }) => {
         <nav className="h-full hidden lg:flex items-center space-x-4 text-base font-medium">
           <Link
             href="/#about"
-            className="px-4 py-2 text-gray-600 dark:text-gray-400 border-2 border-transparent hover:border-gray-400 dark:hover:text-gray-200 rounded-md"
+            className="px-4 py-1.5 text-gray-600 dark:text-gray-400 border-2 border-transparent hover:border-gray-400 dark:hover:text-gray-200 rounded-md"
           >
             About
           </Link>
           <Link
             href="/#portfolio"
-            className="px-4 py-2 text-gray-600 dark:text-gray-400 border-2 border-transparent hover:border-gray-400 dark:hover:text-gray-200 rounded-md"
+            className="px-4 py-1.5 text-gray-600 dark:text-gray-400 border-2 border-transparent hover:border-gray-400 dark:hover:text-gray-200 rounded-md"
           >
             Portfolio
           </Link>
           <Link
             href="/resume"
-            className="px-4 py-2 text-gray-600 dark:text-gray-400 border-2 border-transparent hover:border-gray-400 dark:hover:text-gray-200 rounded-md"
+            className="px-4 py-1.5 text-gray-600 dark:text-gray-400 border-2 border-transparent hover:border-gray-400 dark:hover:text-gray-200 rounded-md"
           >
             Resume
           </Link>
