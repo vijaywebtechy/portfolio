@@ -67,7 +67,8 @@ const WhyChooseMe = () => {
               diverse set of skills to every project, ensuring everything looks
               great and works flawlessly."
             </p>
-            <button
+            <button 
+              onClick={() => window.open("/resume.pdf", "_blank")}
               className={`flex items-center justify-center gap-x-3 font-montserrat py-2.5 px-4 border-2 border-gray-400 dark:border-gray-600 text-lg leading-normal 
     rounded-md font-medium text-gray-600 dark:text-gray-300 
     hover:text-violet-600 dark:hover:text-violet-600 hover:border-violet-800 dark:hover:border-violet-800 

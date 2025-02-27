@@ -7,15 +7,15 @@ import {
   MousePointerClick,
   Slash,
 } from "lucide-react";
-import Image from "next/image";
 import HeroRightBlock from "./herorightblock";
+import QuoteScroll from "../quoteScroll";
 
 const HeroSection = ({ onContactSheet }) => {
   return (
     <div
-      className={`header-section relative ${styles.heroSection} flex items-center dark:bg-slate-950 bg-hero-light-img dark:bg-hero-dark-img`}
+      className={`header-section relative ${styles.heroSection} flex flex-col dark:bg-slate-950 bg-hero-light-img dark:bg-hero-dark-img`}
     >
-      <div className="max-w-6xl mx-auto p-4 grid grid-cols-1 md:grid-cols-12 gap-4">
+      <div className={`max-w-6xl my-auto mx-auto p-4 grid grid-cols-1 md:grid-cols-12 gap-x-4 gap-y-24 ${styles.contentBlock}`}>
         <div className="md:col-span-9">
           <span className="font-montserrat text-2xl font-semibold text-violet-600 mb-6 flex items-center -ml-[6px]">
             <ChevronLeft
@@ -65,10 +65,11 @@ const HeroSection = ({ onContactSheet }) => {
             </Link>
           </div>
         </div>
-        <div className={`md:col-span-3`}>
+        <div className={`md:col-span-3 hidden lg:block`}>
           <HeroRightBlock />
         </div>
       </div>
+      {/* <QuoteScroll/> */}
     </div>
   );
 };

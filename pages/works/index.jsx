@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 import { ChevronLeft, ChevronRight, Link, Slash } from "lucide-react";
 import Image from "next/image";
 

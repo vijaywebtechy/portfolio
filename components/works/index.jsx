@@ -81,7 +81,7 @@ const Works = () => {
           spaceBetween={24}
           className="portfolioSwiper h-[542px]"
         >
-          {projectData.map((project, index) => (
+          {projectData?.slice(0,5).map((project, index) => (
             <SwiperSlide
               key={index}
               className="h-full flex items-stretch justify-center"

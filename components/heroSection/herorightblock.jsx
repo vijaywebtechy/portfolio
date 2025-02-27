@@ -4,7 +4,7 @@ import uncoding from "@/public/images/handcrafts/undraw_coding_joxb.svg";
 
 const HeroRightBlock = () => {
   return (
-    <div className="relative w-full h-full flex flex-wrap gap-4 justify-evenly items-center">
+    <div className="relative w-full h-full max-w-72 mx-auto flex flex-wrap gap-4 justify-evenly items-center">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="55.59259"

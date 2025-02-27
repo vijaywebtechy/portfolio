@@ -71,4 +71,49 @@ export const projectData = [
         "ProcessWeaver is a leading provider of multi-carrier shipping software solutions designed to streamline and automate complex logistics processes for businesses across various industries. Their comprehensive Transportation Management System (TMS) offers seamless integration with major ERP systems, enabling efficient management of parcel, LTL/TL, ocean, and rail shipments. With a focus on enhancing operational efficiency, reducing transportation costs, and improving customer service, ProcessWeaver's solutions are trusted by numerous global clients.",
       projectLink: "https://vijaywebtechy.github.io/processweaver-web/",
     },
+    {
+      imageUrl: faceq,
+      imageAlt: "Project Screenshot",
+      projectName: "FaceQ",
+      technologies: ["HTML", "CSS3", "JavaScript", "Bootstrap"],
+      description:
+        "FaceQ provides a platform for firms to implement Facial Recognition into their applications with ease. Its versatility enables developers to integrate High Accuracy Face Recognition APIs and SDKs with only a few lines of code.",
+      projectLink: "https://vijaywebtechy.github.io/faceQ-web/",
+    },
+    {
+      imageUrl: nextErgo,
+      imageAlt: "Project Screenshot",
+      projectName: "NextErgo",
+      technologies: ["HTML", "CSS3", "JavaScript", "Bootstrap"],
+      description:
+        "The website Nextergo showcases Star Ergonomics, a global leader in advanced workplace technologies headquartered in Plano, Texas. Their flagship product, the NexGen Desk, is an AI-powered standing desk designed to promote healthier work habits.",
+      projectLink: "https://vijaywebtechy.github.io/nextergo-web/",
+    },
+    {
+      imageUrl: loyolaWeb,
+      imageAlt: "Project Screenshot",
+      projectName: "Loyola college",
+      technologies: ["Wordpress", "Php", "JavaScript"],
+      description:
+        "I developed the official website for Loyola Academy, a premier autonomous institution in Secunderabad, Telangana. The website showcases the academy’s academic programs, admissions, faculty, infrastructure, and student resources in a user-friendly and responsive design.",
+      projectLink: "https://loyolaacademy.edu.in/",
+    },
+    {
+      imageUrl: epistemoWeb,
+      imageAlt: "Project Screenshot",
+      projectName: "Epistemo School",
+      technologies: ["JavaScript", "HTML", "CSS"],
+      description:
+        "I developed the official website for Epistemo Vikas Leadership School, an esteemed educational institution in Hyderabad. The website offers comprehensive information about the school's vision, mission, academic programs, facilities, and admission procedures, all presented through an intuitive and responsive design.",
+      projectLink: "https://vijaywebtechy.github.io/epistemo-web/",
+    },
+    {
+      imageUrl: ideeoWeb,
+      imageAlt: "Project Screenshot",
+      projectName: "IDEEO UI/UX",
+      technologies: ["JavaScript", "HTML", "CSS"],
+      description:
+        "I developed the official website for IDEEO, a dynamic UX/UI design studio specializing in crafting innovative digital experiences. The website effectively showcases the studio's comprehensive services, diverse portfolio, and esteemed clientele, all within a sleek and responsive design.",
+      projectLink: "https://vijaywebtechy.github.io/ideeo-web/",
+    },
   ];

@@ -3,9 +3,12 @@
     background-repeat: repeat, no-repeat; /* First image repeats, second doesn't */
     background-size: auto, cover; /* First image uses default size, second covers */
     background-position: bottom left, center; /* Position for the first and second image */
-    height: calc(100vh - 165px);
+    height: calc(100vh - 85px);
     @media screen and (max-width:768px) {
-        height: 100%; padding: 80px 0;
+        height: 100%; padding: 80px 0 0;
+        .contentBlock{
+            padding-bottom: 50px;
+        }
     }
     @media screen and (max-width:640px) {
         height: 100%; padding: 60px 0;

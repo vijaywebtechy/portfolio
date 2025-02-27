@@ -7,11 +7,25 @@
   --foreground: #171717;
 }
 
+html{
+  scrollbar-width: none;
+}
+html, body{
+  -ms-overflow-style: none;  /* Hide scrollbar in IE and Edge */
+  scrollbar-width: none;  /* Hide scrollbar in Firefox */
+}
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: var(--font-montserrat);
 }
+
+/* Hide scrollbar for Chrome, Safari, Edge */
+::-webkit-scrollbar, ::-moz-scrollbar {
+  display: none;
+}
+
+
 
 // Section Styles 
 .whychooseme-section{
@@ -111,6 +125,10 @@ body {
   // .swiper-slide:nth-child(10n) {
   //   background-color: rgb(54, 94, 77);
   // }
+}
+
+.notfound{
+  height: calc(100vh - 180px);
 }
 
 // Keyframes

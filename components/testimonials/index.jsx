@@ -15,25 +15,19 @@ import "swiper/swiper-bundle.css";
 
 const testimonialData = [
   {
-    clName: "CLANEME",
+    clName: "Qwerty",
     clRole: "Developer",
     description:
       "Lorem ipsum dolor sit, amet consectetur Lorem ipsum dolor sit, amet consectetur adipisicing elit Lorem ipsum dolor sit, amet consectetur adipisicing elit Lorem ipsum dolor sit, amet consectetur adipisicing elit Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
   },
   {
-    clName: "CLANEME2",
+    clName: "Qwerty",
     clRole: "Developer",
     description:
       "Lorem ipsum dolor sit, amet consectetur Lorem ipsum dolor sit, amet consectetur adipisicing elit Lorem ipsum dolor sit, amet consectetur adipisicing elit Lorem ipsum dolor sit, amet consectetur adipisicing elit Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
   },
   {
-    clName: "CLANEME3",
-    clRole: "Developer",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur Lorem ipsum dolor sit, amet consectetur adipisicing elit Lorem ipsum dolor sit, amet consectetur adipisicing elit Lorem ipsum dolor sit, amet consectetur adipisicing elit Lorem ipsum dolor sit, amet consectetur adipisicing elit.",
-  },
-  {
-    clName: "CLANEME4",
+    clName: "Qwerty",
     clRole: "Developer",
     description:
       "Lorem ipsum dolor sit, amet consectetur Lorem ipsum dolor sit, amet consectetur adipisicing elit Lorem ipsum dolor sit, amet consectetur adipisicing elit Lorem ipsum dolor sit, amet consectetur adipisicing elit Lorem ipsum dolor sit, amet consectetur adipisicing elit.",

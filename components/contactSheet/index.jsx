@@ -16,7 +16,7 @@ export const BottomSheetContact = ({ isContactOpen, onClose, title }) => {
 
       {/* Bottom Sheet */}
       <div
-        className={` w-full max-w-[400px] fixed bottom-0 right-5 bg-white rounded-t-3xl shadow-lg transform transition-transform duration-300 ease-in-out z-50 ${
+        className={` w-full max-w-[400px] fixed bottom-0 left-0 right-0 lg:left-auto lg:right-2 mx-auto  bg-white rounded-t-3xl shadow-lg transform transition-transform duration-300 ease-in-out z-50 ${
           isContactOpen ? "translate-y-0" : "translate-y-full"
         }`}
       >
