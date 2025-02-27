@@ -69,7 +69,7 @@ const HeroSection = ({ onContactSheet }) => {
           <HeroRightBlock />
         </div>
       </div>
-      {/* <QuoteScroll/> */}
+      <QuoteScroll/>
     </div>
   );
 };
