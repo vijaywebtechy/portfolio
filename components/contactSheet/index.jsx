@@ -58,14 +58,14 @@ export const BottomSheetContact = ({ isContactOpen, onClose, title }) => {
               happen.
             </p>
             <div className="py-4 flex flex-col gap-y-6 font-montserrat text-base text-gray-800 leading-normal font-medium">
-              <div className="bg-gray-100 p-4 rounded-lg flex items-center gap-4">
+              <a href="mailto:vijaywebtechy@gmail.com" target="_blank" className="bg-gray-100 p-4 rounded-lg flex items-center gap-4">
                 <Image width={32} src={gmailIcon} alt="Gmail" />
                 <p className="text-gray-600">vijaywebtechy@gmail.com</p>
-              </div>
-              <div className="bg-gray-100 p-4 rounded-lg flex items-center gap-4">
+              </a>
+              <a href="https://www.linkedin.com/in/vijayabhaskar-reddy/" target="_blank" className="bg-gray-100 p-4 rounded-lg flex items-center gap-4">
                 <Image width={32} src={linkedIcon} alt="LinkedIn" />
                 <p className="text-gray-600">LinkedIn</p>
-              </div>
+              </a>
             </div>
           </div>
         </div>

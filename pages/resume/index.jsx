@@ -17,7 +17,7 @@ const Resume = () => {
       <div className="w-full max-w-6xl mx-auto py-8 px-4">
         <div className="w-full flex md:flex-row flex-col md:gap-x-4">
           <div className="w-full md:w-8/12">
-            <TitleHeading titleHeading="Summery" />
+            <TitleHeading titleHeading="Summary" />
             <p className="font-montserrat text-base font-normal leading-relaxed mb-12 text-gray-800 dark:text-gray-200">
             Experienced Web Developer with 6+ years of expertise in building responsive and scalable web applications. Skilled in React.js, Next.js, JavaScript, Tailwind CSS, Material-UI, and SCSS, with a strong focus on UI development and performance optimization. Worked on OTT platforms, educational tech, healthcare, and enterprise applications, delivering user-friendly, accessible, and high-performance web experiences. Passionate about creating intuitive interfaces, and enhancing user engagement through modern web technologies.
             </p>
@@ -200,7 +200,7 @@ const Resume = () => {
                   Programming Languages
                 </h3>
                 <div className="flex flex-wrap items-center gap-3 my-1">
-                  <p className="font-montserrat text-base font-medium leading-relaxed text-gray-600">
+                  <p className="font-montserrat text-base font-medium leading-relaxed text-gray-800 dark:text-gray-200">
                     HTML5, CSS3, Sass, JavaScript
                   </p>
                 </div>
@@ -210,7 +210,7 @@ const Resume = () => {
                   Libraries & Frameworks
                 </h3>
                 <div className="flex flex-wrap items-center gap-3 my-1">
-                  <p className="font-montserrat text-base font-medium leading-relaxed text-gray-600">
+                  <p className="font-montserrat text-base font-medium leading-relaxed text-gray-800 dark:text-gray-200">
                     TailwindCSS, Bootstrap, React.js, Next.js, Angular, Framer,
                     Anime.js, AOS
                   </p>
@@ -221,7 +221,7 @@ const Resume = () => {
                   Service Providers
                 </h3>
                 <div className="flex flex-wrap items-center gap-3 my-1">
-                  <p className="font-montserrat text-base font-medium leading-relaxed text-gray-600">
+                  <p className="font-montserrat text-base font-medium leading-relaxed text-gray-800 dark:text-gray-200">
                     Github, Vercel, Netlify, Godaddy, NameCheap
                   </p>
                 </div>
@@ -231,7 +231,7 @@ const Resume = () => {
                   Content Platforms
                 </h3>
                 <div className="flex flex-wrap items-center gap-3 my-1">
-                  <p className="font-montserrat text-base font-medium leading-relaxed text-gray-600">
+                  <p className="font-montserrat text-base font-medium leading-relaxed text-gray-800 dark:text-gray-200">
                     Wordpress, Thinkific, Storyblok
                   </p>
                 </div>
@@ -241,7 +241,7 @@ const Resume = () => {
                   Tools for Design & Coding
                 </h3>
                 <div className="flex flex-wrap items-center gap-3 my-1">
-                  <p className="font-montserrat text-base font-medium leading-relaxed text-gray-600">
+                  <p className="font-montserrat text-base font-medium leading-relaxed text-gray-800 dark:text-gray-200">
                     Figma, Adobe XD, Photoshop, Sketch, Zeplin, Git, Yarn, NPM,
                     Illustrator, Ftp, MS Word, Office
                   </p>
@@ -252,7 +252,7 @@ const Resume = () => {
                   Operating System
                 </h3>
                 <div className="flex flex-wrap items-center gap-3 my-1">
-                  <p className="font-montserrat text-base font-medium leading-relaxed text-gray-600">
+                  <p className="font-montserrat text-base font-medium leading-relaxed text-gray-800 dark:text-gray-200">
                     Windows, MacOS, Ubuntu
                   </p>
                 </div>

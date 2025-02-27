@@ -6,6 +6,7 @@ import { BottomSheetContact } from "@/components/contactSheet";
 import { useState } from "react";
 import { ThemeProvider } from "next-themes";
 import MobileMenu from "@/components/mobileMenu";
+import ScrollToTop from "@/components/scrollToTop";
 
 export default function App({ Component, pageProps }) {
   const [isContactOpen, setIsContactOpen] = useState(false);
@@ -36,6 +37,7 @@ export default function App({ Component, pageProps }) {
           setIsMobileMenuOpen={setIsMobileMenuOpen}
         />
         <Footer />
+        <ScrollToTop />
       </div>
     </ThemeProvider>
   );

@@ -13,7 +13,7 @@ const Footer = () => {
           Handcrafted by me with ❤️ and care.
         </p>
         <div className="font-montserrat text-xl leading-normal text-blue-500 dark:text-gray-200 font-bold">
-          <Link href="https://www.linkedin.com/in/" target="_blank">
+          <Link href="https://www.linkedin.com/in/vijayabhaskar-reddy/" target="_blank">
             in
           </Link>
         </div>

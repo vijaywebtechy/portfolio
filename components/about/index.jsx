@@ -31,7 +31,7 @@ const About = () => {
                   />
                 </div>
                 <p className="font-montserrat text-sm font-medium leading-normal text-gray-800 pt-2 text-center">
-                  Glassic
+                  2023
                 </p>
               </div>
             </SwiperSlide>
@@ -45,7 +45,7 @@ const About = () => {
                   />
                 </div>
                 <p className="font-montserrat text-sm font-medium leading-normal text-gray-800 pt-2 text-center">
-                  Glassic
+                  2023
                 </p>
               </div>
             </SwiperSlide>
@@ -86,19 +86,19 @@ const About = () => {
             </p>
             <p>
               Connecting here won't increase your WiFi speed, but it'll boost
-              your network! Let's link up - find me on LinkedIn.😁
+              your network! Let's link up - find me on <a className="hover:underline underline-offset-4" target="_blank" href="mailto:https://www.linkedin.com/in/vijayabhaskar-reddy/">LinkedIn</a>.😁
             </p>
           </div>
           <div className="flex gap-3 mt-5">
             <button
               type="button"
-              className="text-base text-gray-600 dark:text-slate-200 font-medium border border-gray-500 rounded-full rotate-2 p-0.5 px-3 bg-gray-200 dark:bg-slate-600"
+              className="text-base text-gray-600 dark:text-slate-200 font-medium border border-gray-500 rounded-full rotate-2 transition-all duration-300 p-0.5 px-3 bg-gray-200 dark:bg-slate-600 hover:rotate-0"
             >
               Intrests
             </button>
             <button
               type="button"
-              className="text-base text-gray-600 dark:text-slate-200 font-medium border border-gray-500 rounded-full -rotate-6 p-0.5 px-3 bg-gray-200 dark:bg-slate-600"
+              className="text-base text-gray-600 dark:text-slate-200 font-medium border border-gray-500 rounded-full -rotate-6 transition-all duration-300 p-0.5 px-3 bg-gray-200 dark:bg-slate-600 hover:rotate-0"
             >
               Pictures
             </button>
