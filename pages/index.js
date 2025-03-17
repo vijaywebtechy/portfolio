@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import About from "@/components/about";
 import CTA from "@/components/cta";
 import FAQ from "@/components/faq";

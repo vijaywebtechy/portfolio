@@ -18,10 +18,14 @@ export default {
         foreground: "var(--foreground)",
       },
       backgroundImage: {
-        "hero-light-img":
-          "url('/images/background/square-texture.svg'), url('/images/background/hero-bg.jpg')",
+        // "hero-light-img":
+        //   "url('/images/background/square-texture.svg'), url('/images/background/hero-bg.jpg')",
+        // "hero-dark-img":
+        //   "url('/images/background/square-texture.svg'), url('/images/background/hero-bg-dark.jpg')",
+          "hero-light-img":
+          "url('/images/background/hero-bg.jpg')",
         "hero-dark-img":
-          "url('/images/background/square-texture.svg'), url('/images/background/hero-bg-dark.jpg')",
+          "url('/images/background/hero-bg-dark.jpg')",
         "swiper-light-gradient":
           "linear-gradient(270deg, rgb(255 255 255) 40%, rgb(255 255 255 / 13%) 99%)",
         "swiper-dark-gradient":

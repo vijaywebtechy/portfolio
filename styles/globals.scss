@@ -7,54 +7,53 @@
   --foreground: #171717;
 }
 
-html{
-  scrollbar-width: none;
-}
-html, body{
-  -ms-overflow-style: none;  /* Hide scrollbar in IE and Edge */
-  scrollbar-width: none;  /* Hide scrollbar in Firefox */
-}
+
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: var(--font-montserrat);
 }
 
-/* Hide scrollbar for Chrome, Safari, Edge */
-::-webkit-scrollbar, ::-moz-scrollbar {
-  display: none;
-}
-
-
-
 // Section Styles 
 .whychooseme-section{
-  background-image: url("../public/images/background/square-texture.svg"),url("../public/images/background/section-bg-four.png");
+  // background-image: url("../public/images/background/square-texture.svg"),url("../public/images/background/section-bg-four.png");
   /* Apply different properties for each background image */
-  background-repeat: repeat, no-repeat; /* First image repeats, second doesn't */
-  background-size: auto, cover; /* First image uses default size, second covers */
-  background-position: top left, center; /* Position for the first and second image */
+  // background-repeat: repeat, no-repeat; /* First image repeats, second doesn't */
+  // background-size: auto, cover; /* First image uses default size, second covers */
+  // background-position: top left, center; /* Position for the first and second image */
+
+  background-image: url("../public/images/background/section-bg-four.png");
+  background-repeat: no-repeat;  background-size: cover;background-position: center;
+
 }
 .faq-section{
-  background-image: url("../public/images/background/square-texture.svg"),url("../public/images/background/section-bg-three.png");
-  /* Apply different properties for each background image */
-  background-repeat: repeat, no-repeat; /* First image repeats, second doesn't */
-  background-size: auto, cover; /* First image uses default size, second covers */
-  background-position: top left, center; /* Position for the first and second image */
+  // background-image: url("../public/images/background/square-texture.svg"),url("../public/images/background/section-bg-three.png");
+  // /* Apply different properties for each background image */
+  // background-repeat: repeat, no-repeat; /* First image repeats, second doesn't */
+  // background-size: auto, cover; /* First image uses default size, second covers */
+  // background-position: top left, center; /* Position for the first and second image */
+
+  
+  background-image: url("../public/images/background/section-bg-three.png");
+  background-repeat: no-repeat;  background-size: cover;background-position: center;
 }
 
 .cta-section{
-  background-image: url("../public/images/background/square-texture.svg"), url("../public/images/background/section-bg-five.png");
-  /* Apply different properties for each background image */
-  background-repeat: repeat, no-repeat; /* First image repeats, second doesn't */
-  background-size: auto, cover; /* First image uses default size, second covers */
-  background-position: top left, center; /* Position for the first and second image */
+  // background-image: url("../public/images/background/square-texture.svg"),url("../public/images/background/section-bg-five.png");
+  // /* Apply different properties for each background image */
+  // background-repeat: repeat, no-repeat; /* First image repeats, second doesn't */
+  // background-size: auto, cover; /* First image uses default size, second covers */
+  // background-position: top left, center; /* Position for the first and second image */
+  background-image: url("../public/images/background/section-bg-five.png");
+  background-repeat: no-repeat;  background-size: cover;background-position: center;
 }
 .services-section{
-  background-image: url("../public/images/background/square-texture.svg"),url("../public/images/background/section-bg-two.png");
-  background-repeat: repeat, no-repeat; /* First image repeats, second doesn't */
-  background-size: auto, cover; /* First image uses default size, second covers */
-  background-position: top left, center; /* Position for the first and second image */
+  // background-image: url("../public/images/background/square-texture.svg"),url("../public/images/background/section-bg-two.png");
+  // background-repeat: repeat, no-repeat; /* First image repeats, second doesn't */
+  // background-size: auto, cover; /* First image uses default size, second covers */
+  // background-position: top left, center; /* Position for the first and second image */
+  background-image: url("../public/images/background/section-bg-two.png");
+  background-repeat: no-repeat;  background-size: cover;background-position: center;
 }
 
 
@@ -206,11 +205,14 @@ body {
 }
 
 .menu-sec-container{
-  background-image: url("../public/images/background/square-texture.svg"),url("../public/images/background/section-bg-four.png");
+  // background-image: url("../public/images/background/square-texture.svg"),url("../public/images/background/section-bg-four.png");
   /* Apply different properties for each background image */
-  background-repeat: repeat, no-repeat; /* First image repeats, second doesn't */
-  background-size: auto, cover; /* First image uses default size, second covers */
-  background-position: top left, center; /* Position for the first and second image */
+  // background-repeat: repeat, no-repeat; /* First image repeats, second doesn't */
+  // background-size: auto, cover; /* First image uses default size, second covers */
+  // background-position: top left, center; /* Position for the first and second image */
+
+  background-image: url("../public/images/background/section-bg-four.png");
+  background-repeat: no-repeat;  background-size: cover;background-position: center;
 }
 
 

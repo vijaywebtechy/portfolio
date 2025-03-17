@@ -89,7 +89,7 @@ const About = () => {
               your network! Let's link up - find me on <a className="hover:underline underline-offset-4" target="_blank" href="mailto:https://www.linkedin.com/in/vijayabhaskar-reddy/">LinkedIn</a>.😁
             </p>
           </div>
-          <div className="flex gap-3 mt-5">
+          <div className="gap-3 mt-5 hidden">
             <button
               type="button"
               className="text-base text-gray-600 dark:text-slate-200 font-medium border border-gray-500 rounded-full rotate-2 transition-all duration-300 p-0.5 px-3 bg-gray-200 dark:bg-slate-600 hover:rotate-0"

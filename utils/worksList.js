@@ -12,11 +12,12 @@ import epistemoWeb from "@/public/images/works/epistemo-web.png";
 import loyolaWeb from "@/public/images/works/loyola-academy-web.png";
 import nextErgo from "@/public/images/works/nextergo-web.png";
 import faceq from "@/public/images/works/faceq-web.png";
+import turitoHome from "@/public/images/works/turito-home.png";
 
 export const projectData = [
     {
       imageUrl: wesptc,
-      imageAlt: "Project Screenshot",
+      imageAlt: "Project Screenshot WES",
       projectName: "WES",
       technologies: ["HTML", "CSS3", "JavaScript", "Next.JS"],
       description: "World Education Services (WES) is a non-profit social enterprise dedicated to helping international students, immigrants, and refugees achieve their educational and career goals in the U.S. and Canada. Since 1974, WES has provided credential evaluations to nearly three million individuals from more than 200 countries. Through WES Global Talent Bridge, the organization helps immigrants and refugees who hold international credentials fully utilize their talents and education. Its philanthropic arm, the WES Mariam Assefa Fund, supports inclusive economies that help immigrants and refugees thrive in the United States and Canada.",
@@ -24,7 +25,7 @@ export const projectData = [
     },
     {
       imageUrl: linarcWeb,
-      imageAlt: "Project Screenshot",
+      imageAlt: "Project Screenshot Linarc",
       projectName: "Linarc",
       technologies: ["HTML", "CSS3", "JavaScript", "Bootstrap"],
       description: "Linarc is a cloud-based construction management platform designed to enhance collaboration among project teams. It offers tools for project scheduling, resource allocation, and real-time communication, enabling stakeholders such as general contractors, subcontractors, designers, architects, and owners to work cohesively. Linarc's features include jobsite management, project financials, workflow automation, and mobile applications, all aimed at improving project visibility, accountability, and decision-making.",
@@ -32,7 +33,7 @@ export const projectData = [
     },
     {
       imageUrl: azureanWeb,
-      imageAlt: "Project Screenshot",
+      imageAlt: "Project Screenshot Azurean",
       projectName: "Azurean",
       technologies: ["HTML", "CSS3", "JavaScript", "Bootstrap"],
       description: "Azurean Investment Managers is an India-focused investment management firm founded by seasoned professionals with decades of experience in Indian equities. Their inaugural fund, Azurean India Equity Fund 1, is registered as a Category III Alternative Investment Fund (AIF) with SEBI. The firm aims to generate wealth for investors by investing in high-quality companies across various market capitalizations, aligning with India's growth trajectory. Azurean emphasizes efficient sector allocation and a bottom-up approach to identify companies with strong fundamentals, focusing on growth at a reasonable price and robust cash generation. ",
@@ -40,7 +41,7 @@ export const projectData = [
     },
     {
       imageUrl: cloud23Web,
-      imageAlt: "Project Screenshot",
+      imageAlt: "Project Screenshot Cloud23",
       projectName: "Cloud23",
       technologies: ["HTML", "CSS3", "JavaScript", "Tailwind", "Next.js"],
       description: "Cloud23 is a leading provider of Digital Transformation As A Service (DTAAS), specializing in innovative Salesforce implementations. Operating globally, with a presence in South Africa, India, Botswana, Uganda, and Mauritius, Cloud23 offers comprehensive Salesforce Managed Services, including development, integration, administration, analytics, and support. Their team of certified experts is dedicated to helping businesses across various industries, such as financial services, real estate, and telecommunications, maximize their Salesforce platforms to drive growth and efficiency.",
@@ -48,7 +49,7 @@ export const projectData = [
     },
     {
       imageUrl: skillpayWeb,
-      imageAlt: "Project Screenshot",
+      imageAlt: "Project Screenshot Skillpay",
       projectName: "Skillpay",
       technologies: ["HTML", "CSS3", "JavaScript", "Bootstrap"],
       description: "SkillPay is a financial institution dedicated to empowering students and professionals by providing loans for technology courses through partnered training institutes in India. Our mission is to make education accessible by offering easy credit options, allowing learners to Get Trained & Pay Later. With a fully digital application process, applicants can quickly check their eligibility and apply for loans via our mobile app. Once approved, SkillPay directly disburses the course fee to the chosen institute, enabling individuals to focus on their education without immediate financial constraints. We have partnered with over 10 institutes in Hyderabad and are continually expanding our network to support more aspiring learners across the country.",
@@ -56,7 +57,7 @@ export const projectData = [
     },
     {
       imageUrl: vijayPortfolio,
-      imageAlt: "Project Screenshot",
+      imageAlt: "Project Screenshot Vijay Portfolio",
       projectName: "VIUI Portfolio",
       technologies: ["HTML", "CSS3", "JavaScript", "Tailwind", "Next.js"],
       description: "Vijay is a Frontend Web Developer specializing in creating responsive and interactive web applications. His expertise includes HTML5, CSS3, JavaScript, Bootstrap 4, jQuery, and React.js. Vijay is proficient in developing user-friendly interfaces and has experience in web design, ensuring seamless user experiences across various devices. He is also skilled in programming and open-source contributions, actively participating in communities to share knowledge and collaborate on projects. Vijay is passionate about leveraging modern web technologies to solve real-world problems and enhance user engagement. ",
@@ -64,7 +65,7 @@ export const projectData = [
     },
     {
       imageUrl: processweaverWeb,
-      imageAlt: "Project Screenshot",
+      imageAlt: "Project Screenshot ProcessWeaver",
       projectName: "Processweaver",
       technologies: ["HTML", "CSS3", "JavaScript", "Bootstrap"],
       description:
@@ -73,7 +74,7 @@ export const projectData = [
     },
     {
       imageUrl: faceq,
-      imageAlt: "Project Screenshot",
+      imageAlt: "Project Screenshot FaceQ",
       projectName: "FaceQ",
       technologies: ["HTML", "CSS3", "JavaScript", "Bootstrap"],
       description:
@@ -82,7 +83,7 @@ export const projectData = [
     },
     {
       imageUrl: nextErgo,
-      imageAlt: "Project Screenshot",
+      imageAlt: "Project Screenshot NextErgo",
       projectName: "NextErgo",
       technologies: ["HTML", "CSS3", "JavaScript", "Bootstrap"],
       description:
@@ -91,7 +92,7 @@ export const projectData = [
     },
     {
       imageUrl: loyolaWeb,
-      imageAlt: "Project Screenshot",
+      imageAlt: "Project Screenshot Loyola",
       projectName: "Loyola college",
       technologies: ["Wordpress", "Php", "JavaScript"],
       description:
@@ -100,7 +101,7 @@ export const projectData = [
     },
     {
       imageUrl: epistemoWeb,
-      imageAlt: "Project Screenshot",
+      imageAlt: "Project Screenshot Epistemo",
       projectName: "Epistemo School",
       technologies: ["JavaScript", "HTML", "CSS"],
       description:
@@ -109,11 +110,20 @@ export const projectData = [
     },
     {
       imageUrl: ideeoWeb,
-      imageAlt: "Project Screenshot",
+      imageAlt: "Project Screenshot IDEEO",
       projectName: "IDEEO UI/UX",
       technologies: ["JavaScript", "HTML", "CSS"],
       description:
         "I developed the official website for IDEEO, a dynamic UX/UI design studio specializing in crafting innovative digital experiences. The website effectively showcases the studio's comprehensive services, diverse portfolio, and esteemed clientele, all within a sleek and responsive design.",
       projectLink: "https://vijaywebtechy.github.io/ideeo-web/",
+    },
+    {
+      imageUrl: turitoHome,
+      imageAlt: "Project Screenshot Turito Home",
+      projectName: "Turito",
+      technologies: ["ReactJS", "NextJS", "TailwindCSS"],
+      description:
+        "Turito is an advanced e-learning platform designed to provide interactive live classes, personalized test preparation, and AI-driven learning experiences. With a sleek and user-friendly interface, the platform enhances student engagement and academic success. I developed the UI, ensuring a seamless and responsive design for an intuitive learning experience.",
+      projectLink: "https://turito.com/",
     },
   ];
