@@ -84,7 +84,7 @@ const WhyChooseMe = () => {
             </button>
           </div>
           <div className="w-full md:w-6/12 flex items-center">
-            <div className="flex flex-wrap gap-5">
+            <div className="flex flex-wrap gap-5 md:justify-start justify-evenly">
               {skills.map((skill, index) => (
                 <div className="text-center" key={index}>
                   <div className="w-20 h-20 flex items-center justify-center">
