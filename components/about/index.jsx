@@ -5,7 +5,10 @@ import { EffectCards } from "swiper/modules";
 // Import Swiper styles
 import "swiper/swiper-bundle.css";
 import Image from "next/image";
-import mine1 from "@/public/images/mine/mine1.jpg";
+import vijay2 from "@/public/images/mine/vijay2.jpg";
+// import mine1 from "@/public/images/mine/mine1.jpg";
+// import vijay from "@/public/images/mine/vijay.jpg";
+// import vijay3 from "@/public/images/mine/vijay3.jpg";
 
 const About = () => {
   return (
@@ -25,13 +28,13 @@ const About = () => {
               <div className="flex flex-col justify-between p-2 w-full h-full bg-white dark:bg-slate-200 shadow-2xl">
                 <div className="border border-gray-200 w-full h-full rounded-xl relative overflow-hidden grayscale">
                   <Image
-                    src={mine1}
+                    src={vijay2}
                     alt="image"
                     className="absolute w-full h-full object-cover"
                   />
                 </div>
                 <p className="font-montserrat text-sm font-medium leading-normal text-gray-800 pt-2 text-center">
-                  2023
+                  2023 🫡
                 </p>
               </div>
             </SwiperSlide>
@@ -39,13 +42,13 @@ const About = () => {
               <div className="flex flex-col justify-between p-2 w-full h-full bg-white dark:bg-slate-200">
                 <div className="border border-gray-200 w-full h-full rounded-xl relative overflow-hidden">
                   <Image
-                    src={mine1}
+                    src={vijay2}
                     alt="image"
                     className="absolute w-full h-full object-cover"
                   />
                 </div>
                 <p className="font-montserrat text-sm font-medium leading-normal text-gray-800 pt-2 text-center">
-                  2023
+                  2023 🫡
                 </p>
               </div>
             </SwiperSlide>

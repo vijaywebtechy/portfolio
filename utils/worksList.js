@@ -126,4 +126,14 @@ export const projectData = [
         "Turito is an advanced e-learning platform designed to provide interactive live classes, personalized test preparation, and AI-driven learning experiences. With a sleek and user-friendly interface, the platform enhances student engagement and academic success. I developed the UI, ensuring a seamless and responsive design for an intuitive learning experience.",
       projectLink: "https://turito.com/",
     },
+    // {
+    //   imageUrl: turitoHome,
+    //   imageAlt: "Project Screenshot Turito Home",
+    //   projectName: "Dashboard",
+    //   technologies: ["ReactJS", "NextJS", "TailwindCSS"],
+    //   description:
+    //     "Turito is an advanced e-learning platform designed to provide interactive live classes, personalized test preparation, and AI-driven learning experiences. With a sleek and user-friendly interface, the platform enhances student engagement and academic success. I developed the UI, ensuring a seamless and responsive design for an intuitive learning experience.",
+    //   projectLink: "https://turito.com/",
+    //   prjtype: "dashboard",
+    // },
   ];

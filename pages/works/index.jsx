@@ -1,11 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import { ChevronLeft, ChevronRight, Link, Slash } from "lucide-react";
 import Image from "next/image";
-
 import { projectData } from "@/utils/worksList";
 
 
 const Works = () => {
+
+  const [selectedType, setSelectedType] = useState("all");
+
+  const filteredProjects = selectedType === "dashboard"
+    ? projectData.filter((project) => project.prjtype === "dashboard")
+    : projectData;
+
+
   return (
     <section
       id="portfolio"
@@ -30,13 +37,47 @@ const Works = () => {
           Checkout my work.
         </h2>
       </div>
+      <div className="w-full max-w-6xl mx-auto mt-10 px-4">
+        <div className="flex gap-4">
+        <button
+        type="button"
+        className={`py-2 px-5 border border-1 rounded-lg font-montserrat font-medium text-sm ${
+          selectedType === "all" ? "bg-gray-300" : "dark:text-gray-100"
+        }`}
+        onClick={() => setSelectedType("all")}
+      >
+        All
+      </button>
+      <button
+        type="button"
+        className={`py-2 px-5 border border-1 rounded-lg font-montserrat font-medium text-sm ${
+          selectedType === "dashboard" ? "bg-gray-300" : "dark:text-gray-100"
+        }`}
+        onClick={() => setSelectedType("dashboard")}
+      >
+        Dashboard
+      </button>
+        </div>
+      </div>
 
       {/* -------------------- Swiper Slider -------------------- */}
-      <div className="w-full max-w-6xl mx-auto mt-10 px-4 grid grid-cols-1 md:grid-cols-2 gap-8">
-        {projectData.map((project) => {
-          return <WorksCard {...project} />;
-        })}
-      </div>
+      
+      {filteredProjects.length > 0 ? (
+  <div className="w-full max-w-6xl mx-auto mt-10 px-4 grid grid-cols-1 md:grid-cols-2 gap-8">
+    {filteredProjects.map((project) => (
+      <WorksCard key={project.projectName} {...project} />
+    ))}
+  </div>
+) : (
+  <div className="w-full max-w-6xl mx-auto mt-10 px-4">
+    <div className="text-gray-500 h-96 border border-1 flex items-center justify-center rounded-lg mb-16">
+      <p className="font-montserrat text-sm font-medium leading-normal text-gray-800 pt-2 text-center dark:text-slate-200">
+        Under Construction! <br /> Check back later.
+      </p>
+    </div>
+  </div>
+)}
+
       {/* -------------------- ./Swiper Slider -------------------- */}
     </section>
   );
