@@ -31,9 +31,7 @@ const MyServices = () => {
             What I do best.
           </h2>
           <p className="font-montserrat text-lg md:text-xl text-gray-600 dark:text-gray-200 mt-4 mb-10 leading-relaxed">
-            Dive into our FAQ to uncover answers to the questions on your mind.
-            If you don't find what you're looking for, we're just a message
-            away!
+            I design and develop responsive, user-friendly websites with a focus on performance and great user experience.
           </p>
         </div>
         <div className="w-full md:w-7/12 flex flex-col md:flex-row items-center gap-x-4">

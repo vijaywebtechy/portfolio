@@ -12,24 +12,28 @@ const MobileMenu = ({ isMobileMenuOpen, setIsMobileMenuOpen }) => {
       >
         <div className="flex-auto justify-center space-y-10 font-montserrat text-lg text-gray-600 dark:text-white font-normal tracking-normal leading-normal flex flex-col">
           <Link
+          onClick={() => setIsMobileMenuOpen(false)}
             href="/"
             className="py-2.5 px-8 lock border border-gray-400 rounded text-center"
           >
             Home
           </Link>
           <Link
+          onClick={() => setIsMobileMenuOpen(false)}
             href="/#about"
             className="py-2.5 px-8 lock border border-gray-400 rounded text-center"
           >
             About
           </Link>
           <Link
+          onClick={() => setIsMobileMenuOpen(false)}
             href="/#portfolio"
             className="py-2.5 px-8 lock border border-gray-400 rounded text-center"
           >
             Portfolio
           </Link>
           <Link
+          onClick={() => setIsMobileMenuOpen(false)}
             href="/resume"
             className="py-2.5 px-8 lock border border-gray-400 rounded text-center"
           >
