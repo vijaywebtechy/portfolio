@@ -9,6 +9,7 @@ import {
 } from "lucide-react";
 import HeroRightBlock from "./herorightblock";
 import QuoteScroll from "../quoteScroll";
+import HeroImgBlock from "./heroImgBlock";
 
 const HeroSection = ({ onContactSheet }) => {
   return (
@@ -66,7 +67,8 @@ const HeroSection = ({ onContactSheet }) => {
           </div>
         </div>
         <div className={`md:col-span-3 hidden lg:block`}>
-          <HeroRightBlock />
+          {/* <HeroRightBlock /> */}
+          <HeroImgBlock />
         </div>
       </div>
       <QuoteScroll/>

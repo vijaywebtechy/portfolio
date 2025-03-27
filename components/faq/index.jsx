@@ -79,8 +79,7 @@ const FAQ = () => {
           <br /> You're Looking For
         </h2>
         <p className="font-montserrat text-lg md:text-xl text-gray-600 dark:text-gray-200 mt-4 mb-10 leading-relaxed">
-          Dive into our FAQ to uncover answers to the questions on your mind. If
-          you don't find what you're looking for, we're just a message away!
+          Dive into our FAQ to find answers to your questions. If you don’t find what you’re looking for, feel free to reach out—we’re just a message away!
         </p>
 
         {/* ----- Accordian ----- */}

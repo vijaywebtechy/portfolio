@@ -176,7 +176,6 @@ const HeroRightBlock = () => {
         />
       </svg>
 
-      {/* Drone */}
     </div>
   );
 };

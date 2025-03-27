@@ -11,9 +11,7 @@ const CTA = ({ onContactSheet }) => {
           Let's Build It Together!
         </h2>
         <p className="font-montserrat text-lg md:text-xl text-gray-600 dark:text-gray-300 mt-4 mb-10 leading-relaxed">
-          Your vision deserves to shine! Whether it's a bold concept or a simple
-          spark, I'm here to help you turn it into something extraordinary.
-          Let's connect and bring your idea to life today!
+        Your vision deserves to shine! Whether it's a bold concept or a simple spark, I'm here to help you transform it into something extraordinary. Let's connect and bring your idea to life today!
         </p>
         <div className="flex justify-start items-center">
           <button
